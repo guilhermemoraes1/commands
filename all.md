@@ -1,6 +1,15 @@
 - apt update: 
-- apt upgrade: 
+- apt upgrade:
+- cat: 
 - cd: change directory
-- history: 
+- clear:
+- exit: 
+- find: 
+- history:
+- kill: 
+- last: 
 - ls:
+- pwd: 
 - rm:
+- top: 
+- vim: 
