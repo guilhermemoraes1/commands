@@ -1,3 +1,6 @@
-
+- apt update: 
+- apt upgrade: 
 - cd: change directory
-- ls: 
+- history: 
+- ls:
+- rm:
