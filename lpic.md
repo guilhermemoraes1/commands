@@ -1,15 +1,16 @@
 ## Tópico 101: Arquitetura de Sistema
 ### 101.1 Identificar e editar configurações de hardware
 
-- /sys/: 
+- /sys/
   - O sysfs geralmente é montado no diretório /sys.
-  - sysfs é um pseudo sistema de arquivos fornecido pelo kernel do Linux que exporta informações sobre sobre vários subsistemas do kernel, dispositivos de hardware e drivers de dispositivos associados.
+  - sysfs é um pseudo sistema de arquivos fornecido pelo kernel do Linux que exporta informações sobre vários subsistemas do kernel, dispositivos de hardware e drivers de dispositivos associados.
 ``` console
 jadi@funlife:~$ ls /sys
 block  bus  class  dev  devices  firmware  fs  hypervisor  kernel  module  power
 ```
 - /proc/
-- /dev/
+- /dev/: diretório que contém os links que representam os dispositivos
+  - udev (userspace /dev) => udev controla o diretório /dev/.
 - modprobe
 - lsmod
 - lspci
