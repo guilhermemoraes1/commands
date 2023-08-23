@@ -2,13 +2,13 @@
 ### 101.1 Identificar e editar configurações de hardware
 
 - /sys/
-  - O sysfs geralmente é montado no diretório /sys.
-  - sysfs é um pseudo sistema de arquivos fornecido pelo kernel do Linux que exporta informações sobre vários subsistemas do kernel, dispositivos de hardware e drivers de dispositivos associados.
+  - Sysfs is usually mounted in the /sys directory.
+  - Sysfs is a pseudo filesystem provided by the Linux kernel that exports information about various kernel subsystems, hardware devices, and associated device drivers.
 ``` console
 jadi@funlife:~$ ls /sys
 block  bus  class  dev  devices  firmware  fs  hypervisor  kernel  module  power
 ```
-- /proc/: **processos**
+- /proc/: **process**
   - Em /proc existem várias pastas com nomes que são apenas números. Elas representam cada processo aberto no computador no espaço de usuário! As pastas que não são números, são processos de sistema.
 ``` console
 guilherme@gml:~$ ls /proc
@@ -48,8 +48,8 @@ guilherme@gml:~$ ls /proc
 1360   1634  1919   20219  32     748   95    kpageflags
 14     1642  1921   20269  33     749   951   loadavg
 ```
-- /dev/: **diretório que contém os links que representam os dispositivos**
-  - udev (userspace /dev) => udev controla o diretório /dev/.
+- /dev/: **directory containing links representing devices**
+  - udev (userspace /dev) => udev controls the /dev/ directory
 - modprobe
 - lsmod
 - lspci
