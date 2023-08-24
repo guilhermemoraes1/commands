@@ -52,7 +52,19 @@ guilherme@machine:~$ ls /proc
   - udev (userspace /dev) => udev controls the /dev/ directory
 - modprobe
 - lsmod
-- lspci
+- lspci: Shows PCI devices that are connected to the computer.
+``` console
+guilherme@machine:~$ lspci
+00:00.0 Host bridge: ALi Corporation M1541 (rev 04)
+00:01.0 PCI bridge: ALi Corporation M1541 PCI to AGP Controller (rev 04)
+00:02.0 USB Controller: ALi Corporation USB 1.1 Controller (rev 03)
+00:03.0 Bridge: ALi Corporation M7101 PMU
+00:07.0 ISA bridge: ALi Corporation M1533 PCI to ISA Bridge [Aladdin IV] 
+00:09.0 Ethernet controller: Realtek Semiconductor Co., Ltd. RTL-8139/8139C/8139C+ (rev 10)
+00:0b.0 SCSI storage controller: Adaptec AHA-2940/2940W / AIC-7871
+00:0f.0 IDE interface: ALi Corporation M5229 IDE (rev c1)
+01:00.0 VGA compatible controller: NVidia / SGS Thomson (Joint Venture) Riva128 (rev 10)
+```
 - lsusb: displays informations about USB devices
 ``` console
 guilherme@machine:~$ lsusb
@@ -65,6 +77,10 @@ Bus 001 Device 003: ID 192f:0916 Avago Technologies, Pte.
 Bus 001 Device 002: ID 8087:0024 Intel Corp. Integrated Rate Matching Hub
 Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
 ```
+
+##
+
+- PCI device: means any device that can connect into the motherboard by utilizing the PCI slot.
 
 ##
 
