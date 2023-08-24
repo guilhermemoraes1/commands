@@ -80,6 +80,8 @@ Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
 
 ##
 
+### Glossary
+
 - <a name="pci"></a> PCI device: means any device that can connect into the motherboard by utilizing the PCI slot.
 
 ##
