@@ -11,7 +11,7 @@ block  bus  class  dev  devices  firmware  fs  hypervisor  kernel  module  power
 - /proc/: **process**
   - In /proc there are several folders with names that are just numbers. They represent every process open on the computer in user space! Folders that are not numbered are system processes.
 ``` console
-guilherme@gml:~$ ls /proc
+guilherme@machine:~$ ls /proc
 1      1439  1657   1927   20284  334   750   97             locks
 10     1444  1661   1928   20307  3640  753   98             mdstat
 101    1447  1662   19309  20338  374   755   988            meminfo
@@ -54,6 +54,17 @@ guilherme@gml:~$ ls /proc
 - lsmod
 - lspci
 - lsusb: displays informations about USB devices
+``` console
+guilherme@machine:~$ lsusb
+Bus 002 Device 003: ID 1c4f:0026 SiGma Micro Keyboard
+Bus 002 Device 002: ID 8087:0024 Intel Corp. Integrated Rate Matching Hub
+Bus 002 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 001 Device 005: ID 04f2:b217 Chicony Electronics Co., Ltd Lenovo Integrated Camera (0.3MP)
+Bus 001 Device 004: ID 0a5c:217f Broadcom Corp. BCM2045B (BDC-2.1)
+Bus 001 Device 003: ID 192f:0916 Avago Technologies, Pte.
+Bus 001 Device 002: ID 8087:0024 Intel Corp. Integrated Rate Matching Hub
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+```
 
 ##
 
