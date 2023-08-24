@@ -8,7 +8,7 @@
 jadi@funlife:~$ ls /sys
 block  bus  class  dev  devices  firmware  fs  hypervisor  kernel  module  power
 ```
-- /proc/: **process**
+- /proc/: **Process**
   - In /proc there are several folders with names that are just numbers. They represent every process open on the computer in user space! Folders that are not numbered are system processes.
 ``` console
 guilherme@machine:~$ ls /proc
@@ -48,11 +48,11 @@ guilherme@machine:~$ ls /proc
 1360   1634  1919   20219  32     748   95    kpageflags
 14     1642  1921   20269  33     749   951   loadavg
 ```
-- /dev/: **directory containing links representing devices**
+- /dev/: **Directory containing links representing devices**
   - udev (userspace /dev) => udev controls the /dev/ directory
 - modprobe
 - lsmod
-- lspci: Shows PCI devices that are connected to the computer.
+- lspci: **Shows [PCI devices](#pci) that are connected to the computer**
 ``` console
 guilherme@machine:~$ lspci
 00:00.0 Host bridge: ALi Corporation M1541 (rev 04)
@@ -65,7 +65,7 @@ guilherme@machine:~$ lspci
 00:0f.0 IDE interface: ALi Corporation M5229 IDE (rev c1)
 01:00.0 VGA compatible controller: NVidia / SGS Thomson (Joint Venture) Riva128 (rev 10)
 ```
-- lsusb: displays informations about USB devices
+- lsusb: **Displays informations about USB devices**
 ``` console
 guilherme@machine:~$ lsusb
 Bus 002 Device 003: ID 1c4f:0026 SiGma Micro Keyboard
@@ -80,7 +80,7 @@ Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
 
 ##
 
-- PCI device: means any device that can connect into the motherboard by utilizing the PCI slot.
+- <a name="pci"></a> PCI device: means any device that can connect into the motherboard by utilizing the PCI slot.
 
 ##
 
