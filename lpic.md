@@ -9,7 +9,7 @@ jadi@funlife:~$ ls /sys
 block  bus  class  dev  devices  firmware  fs  hypervisor  kernel  module  power
 ```
 - /proc/: **process**
-  - Em /proc existem várias pastas com nomes que são apenas números. Elas representam cada processo aberto no computador no espaço de usuário! As pastas que não são números, são processos de sistema.
+  - In /proc there are several folders with names that are just numbers. They represent every process open on the computer in user space! Folders that are not numbered are system processes.
 ``` console
 guilherme@gml:~$ ls /proc
 1      1439  1657   1927   20284  334   750   97             locks
