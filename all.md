@@ -8,12 +8,12 @@
 - history:
 - kill: 
 - last: 
-- ls:
-- lsblk: 
-- lshw: 
+- ls: 
+- lsblk: Used for list devices that can read from or write to by blocks of data.
 - lspci:
 - lsusb: 
 - pwd: 
 - rm:
+- sudo lshw: 
 - top: 
 - vim: 
