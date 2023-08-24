@@ -1,5 +1,5 @@
-## Tópico 101: Arquitetura de Sistema
-### 101.1 Identificar e editar configurações de hardware
+## Topic 101: System Architecture
+### 101.1 Determine and configure hardware settings
 
 - /sys/
   - Sysfs is usually mounted in the /sys directory.
