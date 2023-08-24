@@ -9,6 +9,10 @@
 - kill: 
 - last: 
 - ls:
+- lsblk: 
+- lshw: 
+- lspci:
+- lsusb: 
 - pwd: 
 - rm:
 - top: 
