@@ -53,7 +53,7 @@ guilherme@gml:~$ ls /proc
 - modprobe
 - lsmod
 - lspci
-- lsusb
+- lsusb: displays informations about USB devices
 
 ##
 
