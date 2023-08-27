@@ -78,6 +78,19 @@ Bus 001 Device 002: ID 8087:0024 Intel Corp. Integrated Rate Matching Hub
 Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
 ```
 
+### 101.2 Boot the system
+
+- dmesg
+- journalctl
+- BIOS
+- UEFI
+- bootloader
+- kernel
+- initramfs
+- init
+- SysVinit
+- systemd
+
 ##
 
 ### Glossary
@@ -89,3 +102,4 @@ Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
 - [Playlist](https://www.youtube.com/playlist?list=PLFOYXCPEqdNUU55Xvgst8wGTWnz_sd-cj)
 - [Material](https://github.com/guilhermemoraes1/all-courses/blob/main/huawei/cloud-computing/course.md)
 - [Objetivos: Exame 101](https://wiki.lpi.org/wiki/LPIC-1_Objectives_V5.0(PT-BR)#Objetivos:_Exame_101)
+- [LPIC-1 Exam 101](https://www.lpi.org/our-certifications/exam-101-objectives/)
