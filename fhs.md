@@ -200,6 +200,34 @@ grub                           symvers-3.10.0-1160.el7.x86_64.gz
 grub2                          System.map-3.10.0-1160.el7.x86_64
 ```
 
+- **/dev**: special files known as "device files" or "device nodes".
+``` console
+[root@localhost /]# ls /dev
+autofs         core             fd         log                 null    rtc       snd     tty11  tty2   tty28  tty36  tty44  tty52  tty60  ttyS2    vcs1   vcsa3
+block          cpu              full       loop-control        nvram   rtc0      sr0     tty12  tty20  tty29  tty37  tty45  tty53  tty61  ttyS3    vcs2   vcsa4
+bsg            cpu_dma_latency  fuse       mapper              oldmem  sda       stderr  tty13  tty21  tty3   tty38  tty46  tty54  tty62  uhid     vcs3   vcsa5
+btrfs-control  crash            hpet       mcelog              port    sda1      stdin   tty14  tty22  tty30  tty39  tty47  tty55  tty63  uinput   vcs4   vcsa6
+bus            disk             hugepages  mem                 ppp     sda2      stdout  tty15  tty23  tty31  tty4   tty48  tty56  tty7   urandom  vcs5   vfio
+cdrom          dm-0             hwrng      mqueue              ptmx    sg0       tty     tty16  tty24  tty32  tty40  tty49  tty57  tty8   usbmon0  vcs6   vga_arbiter
+centos         dm-1             initctl    net                 pts     sg1       tty0    tty17  tty25  tty33  tty41  tty5   tty58  tty9   usbmon1  vcsa   vhci
+char           dri              input      network_latency     random  shm       tty1    tty18  tty26  tty34  tty42  tty50  tty59  ttyS0  usbmon2  vcsa1  vhost-net
+console        fb0              kmsg       network_throughput  raw     snapshot  tty10   tty19  tty27  tty35  tty43  tty51  tty6   ttyS1  vcs      vcsa2  zero
+
+```
+
+
+- **
+``` console
+
+```
+
+
+- **
+``` console
+
+```
+
+
 - **
 ``` console
 
