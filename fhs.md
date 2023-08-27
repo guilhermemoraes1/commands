@@ -191,6 +191,14 @@ cracklib-format       getsebool                  lid                        nl-l
 cracklib-packer       glibc_post_upgrade.x86_64  lnewusers                  nl-pktloc-lookup   rtpr                        useradd
 ```
 
+- **/boot**: essential files needed for the initial boot process of the Linux operating system.
+``` console
+[root@localhost /]# ls /boot
+config-3.10.0-1160.el7.x86_64  initramfs-0-rescue-668865503faa314f87516a6b7659ff5b.img  vmlinuz-0-rescue-668865503faa314f87516a6b7659ff5b
+efi                            initramfs-3.10.0-1160.el7.x86_64.img                     vmlinuz-3.10.0-1160.el7.x86_64
+grub                           symvers-3.10.0-1160.el7.x86_64.gz
+grub2                          System.map-3.10.0-1160.el7.x86_64
+```
 
 - **
 ``` console
