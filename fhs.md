@@ -124,3 +124,75 @@ echo                                ipcrm                  nf-queue            r
 egrep                               ipcs                   ngettext            raw                       systemd-tty-ask-password-agent
 eject                               iptables-xml           nice                read                      tabs
 ```
+- **/sbin**: System binaries (commands) for system administration.
+
+``` console
+[root@localhost /]# ls /usr/sbin
+accessdb              cracklib-unpacker          groupadd                   lnstat             nl-qdisc-add                rtstat                     userdel
+addgnupghome          create-cracklib-dict       groupdel                   load_policy        nl-qdisc-delete             runlevel                   usermod
+addpart               crond                      groupmems                  logrotate          nl-qdisc-list               runuser                    usernetctl
+adduser               ctrlaltdel                 groupmod                   logsave            nologin                     sasldblistusers2           vgcfgbackup
+agetty                ctstat                     grpck                      losetup            nstat                       saslpasswd2                vgcfgrestore
+alternatives          debugfs                    grpconv                    lpasswd            ownership                   sefcontext_compile         vgchange
+anacron               delpart                    grpunconv                  lsmod              packer                      selabel_digest             vgck
+applygnupgdefaults    depmod                     grub2-bios-setup           luseradd           pam_console_apply           selabel_lookup             vgconvert
+arpd                  devlink                    grub2-get-kernel-settings  luserdel           pam_tally2                  selabel_lookup_best_match  vgcreate
+arping                dhclient                   grub2-install              lusermod           pam_timestamp_check         selabel_partial_match      vgdisplay
+audispd               dhclient-script            grub2-macbless             lvchange           parted                      selinuxconlist             vgexport
+auditctl              dmeventd                   grub2-mkconfig             lvconvert          partprobe                   selinuxdefcon              vgextend
+auditd                dmfilemapd                 grub2-ofpathname           lvcreate           partx                       selinuxenabled             vgimport
+augenrules            dmidecode                  grub2-probe                lvdisplay          pdata_tools                 selinuxexeccon             vgimportclone
+aureport              dmsetup                    grub2-reboot               lvextend           pidof                       selinux_restorecon         vgmerge
+ausearch              dmstats                    grub2-rpm-sort             lvm                ping6                       semodule                   vgmknodes
+authconfig            dracut                     grub2-set-default          lvmconf            pivot_root                  sendmail                   vgreduce
+authconfig-tui        dumpe2fs                   grub2-setpassword          lvmconfig          plymouthd                   sendmail.postfix           vgremove
+autrace               e2freefrag                 grub2-sparc64-setup        lvmdiskscan        plymouth-set-default-theme  service                    vgrename
+avcstat               e2fsck                     grubby                     lvmdump            postalias                   sestatus                   vgs
+badblocks             e2image                    halt                       lvmetad            postcat                     setcap                     vgscan
+biosdecode            e2label                    hardlink                   lvmpolld           postconf                    setenforce                 vgsplit
+biosdevname           e2undo                     hwclock                    lvmsadc            postdrop                    setfiles                   vigr
+blkdeactivate         e4defrag                   iconvconfig                lvmsar             postfix                     setsebool                  vipw
+blkdiscard            eapol_test                 iconvconfig.x86_64         lvreduce           postkick                    sfdisk                     virt-what
+blkid                 ebtables                   ifcfg                      lvremove           postlock                    shutdown                   visudo
+blockdev              ebtables-restore           ifdown                     lvrename           postlog                     sln                        vmcore-dmesg
+bridge                ebtables-save              ifenslave                  lvresize           postmap                     smtp-sink                  vpddecode
+btrfs                 era_check                  ifstat                     lvs                postmulti                   smtp-source                weak-modules
+btrfsck               era_dump                   ifup                       lvscan             postqueue                   ss                         wipefs
+btrfs-convert         era_invalidate             init                       makedumpfile       postsuper                   sshd                       wpa_cli
+btrfs-debug-tree      era_restore                insmod                     matchpathcon       poweroff                    sshd-keygen                wpa_passphrase
+btrfs-find-root       ethtool                    install-info               mkdict             ppp-watch                   sulogin                    wpa_supplicant
+btrfs-image           faillock                   installkernel              mkdumprd           pvchange                    sushell                    xfs_admin
+btrfs-map-logical     fdformat                   intel-microcode2ucode      mke2fs             pvck                        swaplabel                  xfs_bmap
+btrfs-select-super    fdisk                      ip                         mkfs               pvcreate                    swapoff                    xfs_copy
+btrfstune             filefrag                   ip6tables                  mkfs.btrfs         pvdisplay                   swapon                     xfs_db
+btrfs-zero-log        findfs                     ip6tables-restore          mkfs.cramfs        pvmove                      switch_root                xfs_estimate
+build-locale-archive  firewalld                  ip6tables-save             mkfs.ext2          pvremove                    sysctl                     xfs_freeze
+cacertdir_rehash      fixfiles                   iprconfig                  mkfs.ext3          pvresize                    sys-unconfig               xfs_fsr
+cache_check           fsadm                      iprdbg                     mkfs.ext4          pvs                         tc                         xfs_growfs
+cache_dump            fsck                       iprdump                    mkfs.minix         pvscan                      telinit                    xfs_info
+cache_metadata_size   fsck.btrfs                 iprinit                    mkfs.xfs           pwck                        thin_check                 xfs_io
+cache_repair          fsck.cramfs                iprsos                     mkhomedir_helper   pwconv                      thin_delta                 xfs_logprint
+cache_restore         fsck.ext2                  iprupdate                  mklost+found       pwhistory_helper            thin_dump                  xfs_mdrestore
+cache_writeback       fsck.ext3                  ipset                      mkswap             pwunconv                    thin_ls                    xfs_metadump
+capsh                 fsck.ext4                  iptables                   modinfo            rdisc                       thin_metadata_size         xfs_mkfile
+cbq                   fsck.minix                 iptables-restore           modprobe           rdma                        thin_repair                xfs_ncheck
+cfdisk                fsck.xfs                   iptables-save              netreport          readprofile                 thin_restore               xfs_quota
+chcpu                 fsfreeze                   irqbalance                 NetworkManager     reboot                      thin_rmap                  xfs_repair
+chgpasswd             fstrim                     kexec                      new-kernel-pkg     resize2fs                   thin_trim                  xfs_rtcp
+chkconfig             fxload                     killall5                   newusers           resizepart                  tracepath                  xtables-multi
+chpasswd              genhomedircon              kpartx                     nl-class-add       restorecon                  tracepath6                 zdump
+chronyd               genhostid                  lchage                     nl-class-delete    rmmod                       tune2fs                    zic
+chroot                genl                       ldattach                   nl-classid-lookup  routef                      tuned                      zramctl
+clock                 genl-ctrl-list             ldconfig                   nl-class-list      routel                      tuned-adm
+clockdiff             getcap                     lgroupadd                  nl-cls-add         rsyslogd                    udevadm
+consoletype           getenforce                 lgroupdel                  nl-cls-delete      rtacct                      unix_chkpwd
+cracklib-check        getpcaps                   lgroupmod                  nl-cls-list        rtcwake                     unix_update
+cracklib-format       getsebool                  lid                        nl-link-list       rtmon                       update-alternatives
+cracklib-packer       glibc_post_upgrade.x86_64  lnewusers                  nl-pktloc-lookup   rtpr                        useradd
+```
+
+
+- **
+``` console
+
+```
