@@ -216,9 +216,39 @@ console        fb0              kmsg       network_throughput  raw     snapshot 
 ```
 
 
-- **
+- **/etc**: store system configuration files. 
 ``` console
-
+[root@localhost /]# ls /etc
+adjtime                  DIR_COLORS               inittab                   my.cnf             rc4.d             subuid
+aliases                  DIR_COLORS.256color      inputrc                   my.cnf.d           rc5.d             subuid-
+aliases.db               DIR_COLORS.lightbgcolor  iproute2                  NetworkManager     rc6.d             sudo.conf
+alternatives             dracut.conf              issue                     networks           rc.d              sudoers
+anacrontab               dracut.conf.d            issue.net                 nsswitch.conf      rc.local          sudoers.d
+asound.conf              e2fsck.conf              kdump.conf                nsswitch.conf.bak  redhat-release    sudo-ldap.conf
+audisp                   environment              kernel                    openldap           resolv.conf       sysconfig
+audit                    ethertypes               krb5.conf                 opt                resolv.conf.save  sysctl.conf
+bash_completion.d        exports                  krb5.conf.d               os-release         rpc               sysctl.d
+bashrc                   favicon.png              ld.so.cache               pam.d              rpm               systemd
+binfmt.d                 filesystems              ld.so.conf                passwd             rsyslog.conf      system-release
+centos-release           firewalld                ld.so.conf.d              passwd-            rsyslog.d         system-release-cpe
+centos-release-upstream  fstab                    libaudit.conf             pkcs11             rwtab             terminfo
+chkconfig.d              gcrypt                   libnl                     pki                rwtab.d           tmpfiles.d
+chrony.conf              gnupg                    libuser.conf              plymouth           sasl2             tuned
+chrony.keys              GREP_COLORS              locale.conf               pm                 securetty         udev
+cron.d                   groff                    localtime                 polkit-1           security          vconsole.conf
+cron.daily               group                    login.defs                popt.d             selinux           virc
+cron.deny                group-                   logrotate.conf            postfix            services          wpa_supplicant
+cron.hourly              grub2.cfg                logrotate.d               ppp                sestatus.conf     X11
+cron.monthly             grub.d                   lvm                       prelink.conf.d     shadow            xdg
+crontab                  gshadow                  machine-id                printcap           shadow-           xinetd.d
+cron.weekly              gshadow-                 magic                     profile            shells            yum
+crypttab                 gss                      makedumpfile.conf.sample  profile.d          skel              yum.conf
+csh.cshrc                host.conf                man_db.conf               protocols          ssh               yum.repos.d
+csh.login                hostname                 mke2fs.conf               python             ssl
+dbus-1                   hosts                    modprobe.d                rc0.d              statetab
+default                  hosts.allow              modules-load.d            rc1.d              statetab.d
+depmod.d                 hosts.deny               motd                      rc2.d              subgid
+dhcp                     init.d                   mtab                      rc3.d              subgid-
 ```
 
 
