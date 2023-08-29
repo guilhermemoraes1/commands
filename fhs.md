@@ -258,19 +258,53 @@ dhcp                     init.d                   mtab                      rc3.
 corvinal  grego
 ```
 
-- **
+- **/root**: home directory for the superuser.
 ``` console
-
+[root@localhost /]# ls /root
+anaconda-ks.cfg
 ```
 
-- **
+- **/lib**: contains shared library files ("libs").
 ``` console
-
+[root@localhost /]# ls /lib
+binfmt.d  firewalld  grub   kernel      modules         os-release  rpm               sse2      tmpfiles.d  yum-plugins
+debug     firmware   kbd    locale      modules-load.d  polkit-1    sendmail          sysctl.d  tuned
+dracut    games      kdump  modprobe.d  NetworkManager  python2.7   sendmail.postfix  systemd   udev
 ```
 
-- **
+- **/media**: used for temporarily mounting external storage devices, such as USB drives, external hard drives, optical discs (like CDs and DVDs), and network shares.
 ``` console
+$ ls /media
+MyUSB/ MyCD/
+```
 
+- **/mnt**: generic location for manually mounting external filesystems or devices.
+``` console
+$ ls /mnt
+mydrive/ nfs_share/
+```
+
+- **/opt**: used for installing software packages that are not part of the default system installation.
+``` console
+guilherme@gml:~$ ls /opt
+google  vscode  zoom
+```
+
+- **/tmp**: is meant for temporary storage of files and data that are needed by programs and processes for a short duration.
+``` console
+[root@localhost /]# ls /tmp
+ks-script-xGuMtK
+systemd-private-151cce23f8054976b3b0c68654621dc1-chronyd.service-K6207y
+systemd-private-35b3547ed8ad4322b9ba5ecdcf0b1bd8-chronyd.service-Z1Wokf
+systemd-private-39a840e5c28c44cd98ccffd76d650916-chronyd.service-QBIn6z
+systemd-private-39a840e5c28c44cd98ccffd76d650916-systemd-hostnamed.service-9sTylf
+systemd-private-3a3b360a9d0346d4926a03dcc781d4cc-chronyd.service-OIcTkK
+systemd-private-3fd5c86b7f0346d29a802ac80460fca6-chronyd.service-UOzybi
+systemd-private-699d677881104838a38119c5d1866ae6-chronyd.service-m2bA5P
+systemd-private-699d677881104838a38119c5d1866ae6-systemd-hostnamed.service-FoXIyw
+systemd-private-9a54156ef4c041b6b45183e293444471-chronyd.service-c7gCsm
+systemd-private-cce35543935e4025b3cd00fef73f0913-chronyd.service-QPga4N
+systemd-private-ce82c52022a045beac12ae992a55e3cc-chronyd.service-D0oKDh
 ```
 
 - **
