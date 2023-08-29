@@ -252,11 +252,26 @@ dhcp                     init.d                   mtab                      rc3.
 ```
 
 
+- **/home**: store the personal files, documents, settings, and data for individual users on the system.
+``` console
+[root@localhost /]# ls /home
+corvinal  grego
+```
+
 - **
 ``` console
 
 ```
 
+- **
+``` console
+
+```
+
+- **
+``` console
+
+```
 
 - **
 ``` console
