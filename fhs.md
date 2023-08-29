@@ -307,6 +307,17 @@ systemd-private-cce35543935e4025b3cd00fef73f0913-chronyd.service-QPga4N
 systemd-private-ce82c52022a045beac12ae992a55e3cc-chronyd.service-D0oKDh
 ```
 
+- **/var**: contains data that is expected to change over time.
+``` console
+[root@localhost /]# ls /var
+adm  cache  crash  db  empty  games  gopher  kerberos  lib  local  lock  log  mail  nis  opt  preserve  run  spool  tmp  yp
+```
+
+- **
+``` console
+
+```
+
 - **
 ``` console
 
