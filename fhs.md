@@ -313,9 +313,10 @@ systemd-private-ce82c52022a045beac12ae992a55e3cc-chronyd.service-D0oKDh
 adm  cache  crash  db  empty  games  gopher  kerberos  lib  local  lock  log  mail  nis  opt  preserve  run  spool  tmp  yp
 ```
 
-- **
+- **/usr**: used for storing user-related files and program data.
 ``` console
-
+[root@localhost /]# ls /usr
+bin  etc  games  include  lib  lib64  libexec  local  sbin  share  src  tmp
 ```
 
 - **
