@@ -12,7 +12,7 @@
 - lsblk: Used for list devices that can read from or write to by blocks of data.
 - lspci:
 - lsusb: 
-- pwd: 
+- pwd: print working directory
 - rm:
 - sudo lshw: 
 - top: 
