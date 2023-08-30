@@ -3,13 +3,13 @@
 - apt update: 
 - apt upgrade:
 - cat: 
-- cd: change directory
+- cd: Change directory
 - clear:
 - exit: 
 - find: 
 - history:
-- hostname: Displays the hostname of the system.
-  - hostname -i: Displays the IP address associated with the system's hostname.
+- hostname: Display the hostname of the system.
+  - hostname -i: Display the IP address associated with the system's hostname.
 - kill: 
 - last: 
 - ls: 
@@ -20,4 +20,5 @@
 - rm:
 - sudo lshw: 
 - top: 
-- vim: 
+- vim:
+- whoami: Display the username of the current user who is logged into the terminal or session.
