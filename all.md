@@ -6,13 +6,15 @@
 - exit: 
 - find: 
 - history:
+- hostname: Displays the hostname of the system.
+  - hostname -i: Displays the IP address associated with the system's hostname.
 - kill: 
 - last: 
 - ls: 
 - lsblk: Used for list devices that can read from or write to by blocks of data.
 - lspci:
 - lsusb: 
-- pwd: print working directory
+- pwd: Print working directory.
 - rm:
 - sudo lshw: 
 - top: 
