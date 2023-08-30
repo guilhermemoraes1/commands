@@ -1,0 +1,1 @@
+- PS1="custom_prompt>": define the prompt that appears in the terminal when you enter commands.
