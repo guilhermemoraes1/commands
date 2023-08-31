@@ -18,7 +18,11 @@
 - lsusb: 
 - pwd: Print working directory.
 - rm:
+- su: Switch user.
 - sudo lshw: 
 - top: 
 - vim:
 - whoami: Display the username of the current user who is logged into the terminal or session.
+
+
+- sudo: 
