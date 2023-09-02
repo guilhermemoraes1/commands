@@ -15,7 +15,8 @@
 - ls: 
 - lsblk: Used for list devices that can read from or write to by blocks of data.
 - lspci:
-- lsusb: 
+- lsusb:
+- mkdir: Make directory.
 - pwd: Print working directory.
 - rm:
 - su: Switch user.
