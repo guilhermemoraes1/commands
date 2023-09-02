@@ -2,9 +2,9 @@
 
 - `apt update`: 
 - `apt upgrade`:
-- `cat`: 
-- `cd`: Change directory
-- `clear`:
+- `cat`: Used to concatenate and display the content of text files.
+- `cd`: Change directory.
+- `clear`: Clear the screen and remove previous text or output.
 - `exit`: 
 - `find`: 
 - `history`:
