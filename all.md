@@ -9,7 +9,6 @@
 - `find`: 
 - `history`:
 - `hostname`: Display the hostname of the system.
-  - `hostname -i`: Display the IP address associated with the system's hostname.
 - `kill`: 
 - `last`: 
 - `ls`: 
@@ -32,10 +31,14 @@
 
 - `cd`: User home.
 - `cd ~`: User home.
-- `cd -`: 
+- `cd -`: Switches between the current directory and the previously visited directory.
 
 ``` console
 [grego@localhost /]$ cd
 [grego@localhost ~]$ pwd
 /home/grego
 ```
+
+## 
+
+- `hostname -i`: Display the IP address associated with the system's hostname.
