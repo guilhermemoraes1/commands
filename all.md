@@ -6,20 +6,24 @@
 - `cd`: Change directory.
 - `clear`: Clear the screen and remove previous text or output.
 - `exit`: 
-- `find`: 
+- `find`:
+- `head`: Display the beginning or top part of a text file.
 - `history`:
 - `hostname`: Display the hostname of the system.
 - `kill`: 
-- `last`: 
+- `last`:
+- `less`: View text files page by page with navigation features. 
 - `ls`: 
 - `lsblk`: Used for list devices that can read from or write to by blocks of data.
 - `lspci`:
 - `lsusb`:
 - `mkdir`: Make directory.
+- `more`: Display the content of text files one screen at a time.
 - `pwd`: Print working directory.
 - `rm`:
 - `su`: Switch user.
-- `sudo lshw`: 
+- `sudo lshw`:
+- `tail`: Display the end or tail portion of a text file.
 - `top`: 
 - `vim`:
 - `whoami`: Display the username of the current user who is logged into the terminal or session.
