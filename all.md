@@ -22,7 +22,8 @@
 - `lsusb`:
 - `man`: Manual.
 - `mkdir`: Make directory.
-- `modinfo`: Display information about a kernel module (device driver or kernel extension).
+- `modinfo`: Display information about a [kernel module](https://github.com/guilhermemoraes1/commands/blob/main/lpic.md#kernel-modules).
+- `modprobe`: Used to add, remove, or manage [kernel modules](https://github.com/guilhermemoraes1/commands/blob/main/lpic.md#kernel-modules) dynamically.
 - `more`: Display the content of text files one screen at a time.
 - `mv`: Move (rename).
 - `pwd`: Print working directory.
