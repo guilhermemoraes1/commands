@@ -29,6 +29,7 @@
 - `sudo lshw`:
 - `tail`: Display the end or tail portion of a text file.
 - `top`: Provides real-time information about the system's processes and resource usage.
+- `uptime`: Displays the current time, how long the system has been running, and the average system load over the last 1, 5, and 15 minutes.
 - `vim`:
 - `whoami`: Display the username of the current user who is logged into the terminal or session.
 
