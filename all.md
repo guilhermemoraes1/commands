@@ -11,13 +11,14 @@
 - `head`: Display the beginning or top part of a text file.
 - `history`: Display a list of previously executed commands in the current terminal session. 
 - `hostname`: Display the hostname of the system.
-- `htop`: It is a more advanced and feature-rich alternative to the traditional [top](#top) command. 
+- `htop`: It is a more advanced and feature-rich alternative to the traditional [top](#top) command.
+- `insmod`: Used to manually insert (load) a [kernel module](https://github.com/guilhermemoraes1/commands/blob/main/lpic.md#kernel-modules) into the running Linux kernel.
 - `kill`: 
 - `last`:
 - `less`: View text files page by page with navigation features. 
 - `ls`: List the files and directories in the current directory (folder).
 - `lsblk`: Used for list devices that can read from or write to by blocks of data.
-- `lsmod`: List the currently loaded kernel modules (device drivers and kernel extensions) on the system.
+- `lsmod`: List the currently loaded [kernel modules](https://github.com/guilhermemoraes1/commands/blob/main/lpic.md#kernel-modules) on the system.
 - `lspci`:
 - `lsusb`:
 - `man`: Manual.
