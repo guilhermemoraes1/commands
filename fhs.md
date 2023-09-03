@@ -297,6 +297,7 @@ google  vscode  zoom
 - **/proc/uptime**: provides information about the system's uptime.
   - time the machine is turned on in seconds.
   - the number of seconds that the system has been idle.
+-  **/proc/cpuinfo**: provides detailed information about the central processing units (CPUs) on the system. 
 ``` console
 
 ```
