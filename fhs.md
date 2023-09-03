@@ -294,6 +294,9 @@ google  vscode  zoom
 ```
 
 - <a name="proc"></a>**/proc**: provides real-time information about the system's state, running processes, hardware details, and kernel settings.
+- **/proc/uptime**: provides information about the system's uptime.
+  - time the machine is turned on in seconds.
+  - the number of seconds that the system has been idle.
 ``` console
 
 ```
