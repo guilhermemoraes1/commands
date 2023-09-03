@@ -7,12 +7,7 @@ It is a set of guidelines and specifications for organizing the file system stru
 bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
 ```
 ##
-- [/bin](#bin)
-- [/](#)
-- [/](#)
-- [/](#)
-- [/](#)
-- [/](#)
+- [/bin](#bin) - [/boot](#boot)- [/dev](#dev) - [/etc](#etc) - [/home](#home) - [/lib](#lib) - [/lib64](#lib64) - [/media](#media) - [/mnt](#mnt) - [/opt](#opt) - [/proc](#proc) - [/root](#root) - [/run](#run) - [/sbin](#sbin) - [/srv](#srv) - [/sys](#sys) - [/tmp](#tmp) - [/usr](#usr) - [/var](#var)
 ##
 
 - <a name="bin"></a>**/bin**: Essential system binaries (commands) that are required for the system's basic operation.
