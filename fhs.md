@@ -6,8 +6,16 @@ It is a set of guidelines and specifications for organizing the file system stru
 [root@localhost /]# ls /
 bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
 ```
+##
+- [/bin](#bin)
+- [/](#)
+- [/](#)
+- [/](#)
+- [/](#)
+- [/](#)
+##
 
-- **/bin**: Essential system binaries (commands) that are required for the system's basic operation.
+- <a name="bin"></a>**/bin**: Essential system binaries (commands) that are required for the system's basic operation.
 
 ```console
 [root@localhost /]# ls /bin
@@ -124,7 +132,7 @@ echo                                ipcrm                  nf-queue            r
 egrep                               ipcs                   ngettext            raw                       systemd-tty-ask-password-agent
 eject                               iptables-xml           nice                read                      tabs
 ```
-- **/sbin**: System binaries (commands) for system administration.
+-<a name="sbin"></a>**/sbin**: System binaries (commands) for system administration.
 
 ``` console
 [root@localhost /]# ls /usr/sbin
@@ -191,7 +199,7 @@ cracklib-format       getsebool                  lid                        nl-l
 cracklib-packer       glibc_post_upgrade.x86_64  lnewusers                  nl-pktloc-lookup   rtpr                        useradd
 ```
 
-- **/boot**: essential files needed for the initial boot process of the Linux operating system.
+-<a name="boot"></a>**/boot**: essential files needed for the initial boot process of the Linux operating system.
 ``` console
 [root@localhost /]# ls /boot
 config-3.10.0-1160.el7.x86_64  initramfs-0-rescue-668865503faa314f87516a6b7659ff5b.img  vmlinuz-0-rescue-668865503faa314f87516a6b7659ff5b
@@ -200,7 +208,7 @@ grub                           symvers-3.10.0-1160.el7.x86_64.gz
 grub2                          System.map-3.10.0-1160.el7.x86_64
 ```
 
-- **/dev**: special files known as "device files" or "device nodes".
+-<a name="dev"></a>**/dev**: special files known as "device files" or "device nodes".
 ``` console
 [root@localhost /]# ls /dev
 autofs         core             fd         log                 null    rtc       snd     tty11  tty2   tty28  tty36  tty44  tty52  tty60  ttyS2    vcs1   vcsa3
@@ -216,7 +224,7 @@ console        fb0              kmsg       network_throughput  raw     snapshot 
 ```
 
 
-- **/etc**: store system configuration files. 
+-<a name="etc"></a>**/etc**: store system configuration files. 
 ``` console
 [root@localhost /]# ls /etc
 adjtime                  DIR_COLORS               inittab                   my.cnf             rc4.d             subuid
@@ -252,19 +260,19 @@ dhcp                     init.d                   mtab                      rc3.
 ```
 
 
-- **/home**: store the personal files, documents, settings, and data for individual users on the system.
+-<a name="home"></a>**/home**: store the personal files, documents, settings, and data for individual users on the system.
 ``` console
 [root@localhost /]# ls /home
 corvinal  grego
 ```
 
-- **/root**: home directory for the superuser.
+-<a name="root"></a>**/root**: home directory for the superuser.
 ``` console
 [root@localhost /]# ls /root
 anaconda-ks.cfg
 ```
 
-- **/lib**: contains shared library files ("libs").
+-<a name="lib"></a>**/lib**: contains shared library files ("libs").
 ``` console
 [root@localhost /]# ls /lib
 binfmt.d  firewalld  grub   kernel      modules         os-release  rpm               sse2      tmpfiles.d  yum-plugins
@@ -272,25 +280,25 @@ debug     firmware   kbd    locale      modules-load.d  polkit-1    sendmail    
 dracut    games      kdump  modprobe.d  NetworkManager  python2.7   sendmail.postfix  systemd   udev
 ```
 
-- **/media**: used for temporarily mounting external storage devices, such as USB drives, external hard drives, optical discs (like CDs and DVDs), and network shares.
+-<a name="media"></a>**/media**: used for temporarily mounting external storage devices, such as USB drives, external hard drives, optical discs (like CDs and DVDs), and network shares.
 ``` console
 $ ls /media
 MyUSB/ MyCD/
 ```
 
-- **/mnt**: generic location for manually mounting external filesystems or devices.
+-<a name="mnt"></a>**/mnt**: generic location for manually mounting external filesystems or devices.
 ``` console
 $ ls /mnt
 mydrive/ nfs_share/
 ```
 
-- **/opt**: used for installing software packages that are not part of the default system installation.
+-<a name="opt"></a>**/opt**: used for installing software packages that are not part of the default system installation.
 ``` console
 guilherme@gml:~$ ls /opt
 google  vscode  zoom
 ```
 
-- **/tmp**: is meant for temporary storage of files and data that are needed by programs and processes for a short duration.
+-<a name="tmp"></a>**/tmp**: is meant for temporary storage of files and data that are needed by programs and processes for a short duration.
 ``` console
 [root@localhost /]# ls /tmp
 ks-script-xGuMtK
@@ -307,19 +315,19 @@ systemd-private-cce35543935e4025b3cd00fef73f0913-chronyd.service-QPga4N
 systemd-private-ce82c52022a045beac12ae992a55e3cc-chronyd.service-D0oKDh
 ```
 
-- **/var**: contains data that is expected to change over time.
+-<a name="var"></a>**/var**: contains data that is expected to change over time.
 ``` console
 [root@localhost /]# ls /var
 adm  cache  crash  db  empty  games  gopher  kerberos  lib  local  lock  log  mail  nis  opt  preserve  run  spool  tmp  yp
 ```
 
-- **/usr**: used for storing user-related files and program data.
+-<a name="usr"></a>**/usr**: used for storing user-related files and program data.
 ``` console
 [root@localhost /]# ls /usr
 bin  etc  games  include  lib  lib64  libexec  local  sbin  share  src  tmp
 ```
 
-- **
+-<a name="bin"></a>**
 ``` console
 
 ```
