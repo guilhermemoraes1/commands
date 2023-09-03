@@ -18,9 +18,10 @@
 - `less`: View text files page by page with navigation features. 
 - `ls`: List the files and directories in the current directory (folder).
 - `lsblk`: Used for list devices that can read from or write to by blocks of data.
+- `lscpu`: Display information about the CPU and its capabilities. 
 - `lsmod`: List the currently loaded [kernel modules](https://github.com/guilhermemoraes1/commands/blob/main/lpic.md#kernel-modules) on the system.
-- `lspci`:
-- `lsusb`:
+- `lspci`: List all the [PCI devices](https://github.com/guilhermemoraes1/commands/blob/main/lpic.md#pci) connected to the computer's PCI bus.
+- `lsusb`: List all the USB  devices connected to the computer.
 - `man`: Manual.
 - `mkdir`: Make directory.
 - `modinfo`: Display information about a [kernel module](https://github.com/guilhermemoraes1/commands/blob/main/lpic.md#kernel-modules).
