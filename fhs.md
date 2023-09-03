@@ -294,10 +294,11 @@ google  vscode  zoom
 ```
 
 - <a name="proc"></a>**/proc**: provides real-time information about the system's state, running processes, hardware details, and kernel settings.
-- **/proc/uptime**: provides information about the system's uptime.
+- /proc/uptime: provides information about the system's uptime.
   - time the machine is turned on in seconds.
   - the number of seconds that the system has been idle.
--  **/proc/cpuinfo**: provides detailed information about the central processing units (CPUs) on the system. 
+-  /proc/cpuinfo: provides detailed information about the central processing units (CPUs) on the system.
+-  /proc/cmdline: It contains the command-line arguments that were passed to the Linux kernel when the system booted.
 ``` console
 
 ```
