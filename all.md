@@ -22,13 +22,14 @@
 - `lsusb`:
 - `man`: Manual.
 - `mkdir`: Make directory.
+- `modinfo`: Display information about a kernel module (device driver or kernel extension).
 - `more`: Display the content of text files one screen at a time.
 - `mv`: Move (rename).
 - `pwd`: Print working directory.
 - `rm`: Remove.
 - `rmdir`: Remove directory.
 - `su`: Switch user.
-- `sudo lshw`:
+- `sudo lshw`: 
 - `tail`: Display the end or tail portion of a text file.
 - <a name="top"></a>`top`: Provides real-time information about the system's processes and resource usage.
 - `uname`: Display system information about the operating system.
