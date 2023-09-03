@@ -20,7 +20,7 @@
 - `mkdir`: Make directory.
 - `more`: Display the content of text files one screen at a time.
 - `pwd`: Print working directory.
-- `rm`:
+- `rm`: Remove.
 - `su`: Switch user.
 - `sudo lshw`:
 - `tail`: Display the end or tail portion of a text file.
