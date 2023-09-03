@@ -28,7 +28,7 @@
 - `su`: Switch user.
 - `sudo lshw`:
 - `tail`: Display the end or tail portion of a text file.
-- `top`: 
+- `top`: Provides real-time information about the system's processes and resource usage.
 - `vim`:
 - `whoami`: Display the username of the current user who is logged into the terminal or session.
 
