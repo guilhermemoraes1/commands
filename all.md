@@ -5,17 +5,17 @@
 - `cat`: Used to concatenate and display the content of text files.
 - `cd`: Change directory.
 - `clear`: Clear the screen and remove previous text or output.
-- `exit`:
+- `exit`: Used to terminate a terminal session or close a shell.
 - `file`: determine the type of a file by examining its content, rather than relying solely on the file extension.
 - `find`:
 - `head`: Display the beginning or top part of a text file.
-- `history`:
+- `history`: Display a list of previously executed commands in the current terminal session. 
 - `hostname`: Display the hostname of the system.
 - `htop`: It is a more advanced and feature-rich alternative to the traditional [top](#top) command. 
 - `kill`: 
 - `last`:
 - `less`: View text files page by page with navigation features. 
-- `ls`: 
+- `ls`: List the files and directories in the current directory (folder).
 - `lsblk`: Used for list devices that can read from or write to by blocks of data.
 - `lspci`:
 - `lsusb`:
@@ -31,7 +31,7 @@
 - `tail`: Display the end or tail portion of a text file.
 - <a name="top"></a>`top`: Provides real-time information about the system's processes and resource usage.
 - `uptime`: Displays the current time, how long the system has been running, and the average system load over the last 1, 5, and 15 minutes.
-- `vim`:
+- `vim`: Text editor.
 - `whoami`: Display the username of the current user who is logged into the terminal or session.
 
 ##
