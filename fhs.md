@@ -347,5 +347,10 @@ bin  etc  games  include  lib  lib64  libexec  local  sbin  share  src  tmp
 
 ```
 
-obs: "/dev," "/proc," and "/sys" are known as "pseudofs" or "pseudo filesystems"
-They are special filesystems that do not represent physical storage on disk but provide information and interfaces for interacting with the kernel and system devices.
+##
+
+**obs**: 
+- "/dev," "/proc," and "/sys" are known as "pseudofs" or "pseudo filesystems"
+  - They are special filesystems that do not represent physical storage on disk but provide information and interfaces for interacting with the kernel and system devices.
+- Udev: linux device manager.
+- D-Bus (Desktop Bus) is an interprocess communication (IPC) system that facilitates communication between processes in Linux and Unix systems.
