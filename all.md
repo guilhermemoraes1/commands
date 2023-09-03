@@ -17,10 +17,13 @@
 - `lsblk`: Used for list devices that can read from or write to by blocks of data.
 - `lspci`:
 - `lsusb`:
+- `man`: Manual.
 - `mkdir`: Make directory.
 - `more`: Display the content of text files one screen at a time.
+- `mv`: Move (rename).
 - `pwd`: Print working directory.
 - `rm`: Remove.
+- `rmdir`: Remove directory.
 - `su`: Switch user.
 - `sudo lshw`:
 - `tail`: Display the end or tail portion of a text file.
