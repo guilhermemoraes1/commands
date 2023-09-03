@@ -293,7 +293,12 @@ guilherme@gml:~$ ls /opt
 google  vscode  zoom
 ```
 
-- <a name="proc"></a>**/proc**: 
+- <a name="proc"></a>**/proc**: provides real-time information about the system's state, running processes, hardware details, and kernel settings.
+``` console
+
+```
+
+- <a name="sys"></a>**/sys**: 
 ``` console
 
 ```
