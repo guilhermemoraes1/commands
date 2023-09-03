@@ -17,6 +17,7 @@
 - `less`: View text files page by page with navigation features. 
 - `ls`: List the files and directories in the current directory (folder).
 - `lsblk`: Used for list devices that can read from or write to by blocks of data.
+- `lsmod`: List the currently loaded kernel modules (device drivers and kernel extensions) on the system.
 - `lspci`:
 - `lsusb`:
 - `man`: Manual.
@@ -30,7 +31,7 @@
 - `sudo lshw`:
 - `tail`: Display the end or tail portion of a text file.
 - <a name="top"></a>`top`: Provides real-time information about the system's processes and resource usage.
-- `uname`: display system information about the operating system.
+- `uname`: Display system information about the operating system.
 - `uptime`: Displays the current time, how long the system has been running, and the average system load over the last 1, 5, and 15 minutes.
 - `vim`: Text editor.
 - `whoami`: Display the username of the current user who is logged into the terminal or session.
