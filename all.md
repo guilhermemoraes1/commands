@@ -5,7 +5,8 @@
 - `cat`: Used to concatenate and display the content of text files.
 - `cd`: Change directory.
 - `clear`: Clear the screen and remove previous text or output.
-- `exit`: 
+- `exit`:
+- `file`: determine the type of a file by examining its content, rather than relying solely on the file extension.
 - `find`:
 - `head`: Display the beginning or top part of a text file.
 - `history`:
