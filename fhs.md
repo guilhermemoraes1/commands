@@ -297,6 +297,7 @@ google  vscode  zoom
 -  /proc/cmdline: It contains the command-line arguments that were passed to the Linux kernel when the system booted.
 -  /proc/cpuinfo: provides detailed information about the central processing units (CPUs) on the system.
 -  /proc/interrupts: It provides detailed information about hardware interrupts that are occurring in real-time on the system.
+-  /proc/ioports: It provides information about the input/output (I/O) port addresses that are currently in use by various devices and components in the system.
 -  /proc/meminfo: It provides detailed information about the system's memory usage, including physical and virtual memory statistics.
 -  /proc/partitions: It provides information about the available disk partitions and block devices on the system.
 - /proc/uptime: provides information about the system's uptime.
