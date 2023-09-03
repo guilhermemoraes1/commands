@@ -30,6 +30,7 @@
 - `sudo lshw`:
 - `tail`: Display the end or tail portion of a text file.
 - <a name="top"></a>`top`: Provides real-time information about the system's processes and resource usage.
+- `uname`: display system information about the operating system.
 - `uptime`: Displays the current time, how long the system has been running, and the average system load over the last 1, 5, and 15 minutes.
 - `vim`: Text editor.
 - `whoami`: Display the username of the current user who is logged into the terminal or session.
@@ -55,3 +56,17 @@ options
 ## 
 
 - `hostname -i`: Display the IP address associated with the system's hostname.
+
+## 
+
+Options for the uname command:
+
+- `uname -a`, --all            : Display all available information.
+- `uname -s`, --kernel-name    : Display the kernel name (e.g., Linux).
+- `uname -n`, --nodename       : Display the network (host) name of the machine.
+- `uname -r`, --kernel-release : Display the kernel release version.
+- `uname -v`, --kernel-version : Display the kernel version.
+- `uname -m`, --machine        : Display the system hardware name (e.g., x86_64).
+- `uname -p`, --processor      : Display the processor type or "unknown" if not available.
+- `uname -i`, --hardware-platform : Display the hardware platform (e.g., x86_64).
+- `uname -o`, --operating-system : Display the operating system name (e.g., GNU/Linux).
