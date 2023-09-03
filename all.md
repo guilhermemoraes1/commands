@@ -31,8 +31,11 @@
 - `vim`:
 - `whoami`: Display the username of the current user who is logged into the terminal or session.
 
+##
+options
 
-- sudo:
+- `--help`: Display a brief summary of how to use the command and its available options.
+- `-f`:  Used to force or enable a particular behavior.
 
 ##
 
