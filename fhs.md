@@ -298,7 +298,7 @@ google  vscode  zoom
 
 ```
 
-- <a name="sys"></a>**/sys**: 
+- <a name="sys"></a>**/sys**: used to configure and control devices and kernel settings.
 ``` console
 
 ```
