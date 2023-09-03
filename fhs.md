@@ -300,6 +300,7 @@ google  vscode  zoom
 -  /proc/cpuinfo: provides detailed information about the central processing units (CPUs) on the system.
 -  /proc/cmdline: It contains the command-line arguments that were passed to the Linux kernel when the system booted.
 -  /proc/meminfo: It provides detailed information about the system's memory usage, including physical and virtual memory statistics.
+-  /proc/partitions: It provides information about the available disk partitions and block devices on the system.
 ``` console
 
 ```
