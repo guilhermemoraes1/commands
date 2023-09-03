@@ -49,7 +49,7 @@ certutil                            getconf                loadunimap          n
 c++filt                             getent                 locale              nl-route-delete           setarch                         tzselect
 chacl                               getfacl                localectl           nl-route-get              setfacl                         udevadm
 chage                               getkeycodes            localedef           nl-route-list             setfont                         ul
-chattr                              getopt                 logger              nl-rule-list              setkeycodes                     umask
+chattr                              get                 logger              nl-rule-list              setkeycodes                     umask
 chcon                               getopts                login               nl-tctree-list            setleds                         umount
 chfn                                gettext                loginctl            nl-util-addr              setmetamode                     unalias
 chgrp                               gettext.sh             logname             nm                        setpriv                         uname
@@ -293,6 +293,11 @@ guilherme@gml:~$ ls /opt
 google  vscode  zoom
 ```
 
+- <a name="proc"></a>**/proc**: 
+``` console
+
+```
+
 - <a name="tmp"></a>**/tmp**: is meant for temporary storage of files and data that are needed by programs and processes for a short duration.
 ``` console
 [root@localhost /]# ls /tmp
@@ -326,3 +331,6 @@ bin  etc  games  include  lib  lib64  libexec  local  sbin  share  src  tmp
 ``` console
 
 ```
+
+obs: "/dev," "/proc," and "/sys" are known as "pseudofs" or "pseudo filesystems"
+They are special filesystems that do not represent physical storage on disk but provide information and interfaces for interacting with the kernel and system devices.
