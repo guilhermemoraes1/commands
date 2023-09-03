@@ -11,6 +11,7 @@
 - `head`: Display the beginning or top part of a text file.
 - `history`:
 - `hostname`: Display the hostname of the system.
+- `htop`: It is a more advanced and feature-rich alternative to the traditional [top](#top) command. 
 - `kill`: 
 - `last`:
 - `less`: View text files page by page with navigation features. 
@@ -28,7 +29,7 @@
 - `su`: Switch user.
 - `sudo lshw`:
 - `tail`: Display the end or tail portion of a text file.
-- `top`: Provides real-time information about the system's processes and resource usage.
+- <a name="top"></a>`top`: Provides real-time information about the system's processes and resource usage.
 - `uptime`: Displays the current time, how long the system has been running, and the average system load over the last 1, 5, and 15 minutes.
 - `vim`:
 - `whoami`: Display the username of the current user who is logged into the terminal or session.
