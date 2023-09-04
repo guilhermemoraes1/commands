@@ -41,6 +41,7 @@
 - `uname`: Display system information about the operating system.
 - `uptime`: Displays the current time, how long the system has been running, and the average system load over the last 1, 5, and 15 minutes.
 - `vim`: Text editor.
+- `wc`: Used to count the number of lines, words, and characters in a text file or standard input.
 - `whoami`: Display the username of the current user who is logged into the terminal or session.
 
 ##
