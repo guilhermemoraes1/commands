@@ -56,6 +56,16 @@ Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
 
 ### 101.2 Boot the system
 
+BIOS -> MBR (Master Boot Record) -> Bootloader -> Kernel -> /sbin/init -> Inicialização 
+
+O MBR ocupa um setor de 512 bytes, contém o bootloader e partitions
+
+Bootloader = Grub (Grand Unified Bootloader)
+
+Kernel + Initrd or Initramfs --> Auxilia com arquivos necessários para o kernel realizar a inicialização do sistema
+
+
+
 - dmesg
 - journalctl
 - BIOS
