@@ -34,7 +34,8 @@
 - `rm`: Remove.
 - `rmdir`: Remove directory.
 - `su`: Switch user.
-- `sudo lshw`: 
+- `sudo lshw`:
+- `sysctl`: Used to view, configure, and manage kernel parameters at runtime.
 - `tail`: Display the end or tail portion of a text file.
 - <a name="top"></a>`top`: Provides real-time information about the system's processes and resource usage.
 - `uname`: Display system information about the operating system.
