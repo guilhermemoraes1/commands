@@ -16,11 +16,11 @@ LPI101(3#1) Which of the following options for the kernel's command line changes
 #
 
 LPI101(17#1) Which of the following commands reboots the system when using SysV init? (Choose TWO Answers.)
-   - [x]shutdown -r now
-   - [ ]shutdown -r "rebooting"
-   - [x]telinit 6
-   - [ ]telinit 0
-   - [ ]shutdown -k now "rebooting"
+   - [x] shutdown -r now
+   - [ ] shutdown -r "rebooting"
+   - [x] telinit 6
+   - [ ] telinit 0
+   - [ ] shutdown -k now "rebooting"
 
 ##
 
@@ -197,11 +197,11 @@ LPI101(268#1) Which of the following commands display the IDs of all processes o
 ##
 
 LPI101(262#1) Which of the following commands sets the SetUID permission on the executable /bin/foo?
-   - [x]chmod 4755 /bin/foo
-   - [ ]chmod 1755 /bin/foo
-   - [ ]chmod u-s /bin/foo
-   - [ ]chmod 755+s /bin/foo
-   - [ ]chmod 2755 /bin/foo
+   - [x] chmod 4755 /bin/foo
+   - [ ] chmod 1755 /bin/foo
+   - [ ] chmod u-s /bin/foo
+   - [ ] chmod 755+s /bin/foo
+   - [ ] chmod 2755 /bin/foo
 
 ##
 
