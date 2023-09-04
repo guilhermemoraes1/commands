@@ -83,8 +83,10 @@ Kernel + Initrd or Initramfs --> Auxilia com arquivos necessários para o kernel
 
 ### Glossary
 
-- <a name="pci"></a> PCI device: means any device that can connect into the motherboard by utilizing the PCI slot.
 - <a name="kernel-modules"></a> Kernel modules: device drivers and kernel extensions.
+- <a name="kernel-ring-buffer"></a> Kernel ring buffer: log where the kernel stores messages and information related to the system's hardware and software.
+- <a name="pci"></a> PCI device: means any device that can connect into the motherboard by utilizing the PCI slot.
+- 
 
 ##
 
