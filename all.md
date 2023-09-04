@@ -5,6 +5,7 @@
 - `cat`: Used to concatenate and display the content of text files.
 - `cd`: Change directory.
 - `clear`: Clear the screen and remove previous text or output.
+- `dmesg`: Used to display the kernel ring buffer.
 - `exit`: Used to terminate a terminal session or close a shell.
 - `file`: determine the type of a file by examining its content, rather than relying solely on the file extension.
 - `find`:
