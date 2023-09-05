@@ -74,7 +74,7 @@ Kernel + Initrd or Initramfs --> Auxilia com arquivos necessários para o kernel
 - UEFI
 - bootloader
 - kernel
-- initramfs
+- initramfs: Initramfs (Initial RAM File System) is a temporary root file system used during the boot process of a Linux-based operating system.
 - init
 - SysVinit: is a traditional initialization system used in Unix and Unix-like operating systems, including various Linux distributions. This initialization system is known for its script-based approach and runlevels.
 - systemd: is a modern init system and service manager used in many Unix-like operating systems, including most major Linux distributions.
