@@ -22,7 +22,8 @@
 - `less`: View text files page by page with navigation features. 
 - `ls`: List the files and directories in the current directory (folder).
 - `lsblk`: Used for list devices that can read from or write to by blocks of data.
-- `lscpu`: Display information about the CPU and its capabilities. 
+- `lscpu`: Display information about the CPU and its capabilities.
+- `lshw`: used to display detailed information about the hardware components and configuration of a computer system.
 - `lsmod`: List the currently loaded [kernel modules](https://github.com/guilhermemoraes1/commands/blob/main/lpic.md#kernel-modules) on the system.
 - `lspci`: List all the [PCI devices](https://github.com/guilhermemoraes1/commands/blob/main/lpic.md#pci) connected to the computer's PCI bus.
 - `lsusb`: List all the USB  devices connected to the computer.
@@ -37,7 +38,6 @@
 - `rmdir`: Remove directory.
 - `runlevel`: Used to display the current runlevel of the system.
 - `su`: Switch user.
-- `sudo lshw`:
 - `sysctl`: Used to view, configure, and manage kernel parameters at runtime.
 - `tail`: Display the end or tail portion of a text file.
 - <a name="top"></a>`top`: Provides real-time information about the system's processes and resource usage.
