@@ -64,8 +64,6 @@ Bootloader = Grub (Grand Unified Bootloader)
 
 Kernel + Initrd or Initramfs --> Auxilia com arquivos necessários para o kernel realizar a inicialização do sistema
 
-
-
 - dmesg
 - journalctl
 - BIOS
@@ -74,8 +72,12 @@ Kernel + Initrd or Initramfs --> Auxilia com arquivos necessários para o kernel
 - kernel
 - initramfs
 - init
-- SysVinit
-- systemd
+- SysVinit: is a traditional initialization system used in Unix and Unix-like operating systems, including various Linux distributions. This initialization system is known for its script-based approach and runlevels.
+- systemd: is a modern init system and service manager used in many Unix-like operating systems, including most major Linux distributions.
+
+obs: 
+- upstart: is an init system used in some Unix-like operating systems, particularly in early versions of Ubuntu (prior to Ubuntu 15.04).
+
 
 ### 101.3 Change runlevels / boot targets and shutdown or reboot system
 
