@@ -310,7 +310,8 @@ google  vscode  zoom
 
 - <a name="sys"></a>**/sys**: exposes kernel parameters, configuration options, and runtime information in a hierarchical structure.
 ``` console
-
+jadi@funlife:~$ ls /sys
+block  bus  class  dev  devices  firmware  fs  hypervisor  kernel  module  power
 ```
 
 - <a name="tmp"></a>**/tmp**: is meant for temporary storage of files and data that are needed by programs and processes for a short duration.
