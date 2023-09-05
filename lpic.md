@@ -1,14 +1,18 @@
 ## Topic 101: System Architecture
 ### 101.1 Determine and configure hardware settings
 
-- /sys/
+##
+- **[/sys/](https://github.com/guilhermemoraes1/commands/edit/main/lpic.md#sys) - [/proc/](https://github.com/guilhermemoraes1/commands/edit/main/lpic.md#proc) - [/dev/](https://github.com/guilhermemoraes1/commands/edit/main/lpic.md#dev) - [modprobe](https://github.com/guilhermemoraes1/commands/edit/main/lpic.md#modprobe) - [lsmod](https://github.com/guilhermemoraes1/commands/edit/main/lpic.md#lsmod) - [lspci](https://github.com/guilhermemoraes1/commands/edit/main/lpic.md#lspci) - [lsusb](https://github.com/guilhermemoraes1/commands/edit/main/lpic.md#lsusb)**
+##
+
+- <a name="sys"></a>/sys/
   - Sysfs is usually mounted in the /sys directory.
   - Sysfs is a pseudo filesystem provided by the Linux kernel that exports information about various kernel subsystems, hardware devices, and associated device drivers.
 ``` console
 jadi@funlife:~$ ls /sys
 block  bus  class  dev  devices  firmware  fs  hypervisor  kernel  module  power
 ```
-- [/proc/](https://github.com/guilhermemoraes1/commands/blob/main/fhs.md#proc): **Process**
+- <a name="proc"></a>[/proc/](https://github.com/guilhermemoraes1/commands/blob/main/fhs.md#proc): **Process**
   - In /proc there are several folders with names that are just numbers. They represent every process open on the computer in user space! Folders that are not numbered are system processes.
 ``` console
 root@localhost:~# ls /proc/
@@ -24,11 +28,11 @@ root@localhost:~# ls /proc/
 1298  1852  282  367  398  496  6    7    bus        fb           kmsg        net           sys
 13    19    283  377  399  5    600  8    cgroups    filesystems  kpagecount  pagetypeinfo  sysrq-trigger
 ```
-- /dev/: **Directory containing links representing devices**
+- <a name="dev"></a>/dev/: **Directory containing links representing devices**
   - udev (userspace /dev) => udev controls the /dev/ directory
-- modprobe
-- lsmod
-- lspci: **Shows [PCI devices](#pci) that are connected to the computer**
+- <a name="modprobe"></a>modprobe: Used to add, remove, or manage [kernel modules](https://github.com/guilhermemoraes1/commands/blob/main/lpic.md#kernel-modules) dynamically.
+- <a name="lsmod"></a>lsmod: List the currently loaded [kernel modules](https://github.com/guilhermemoraes1/commands/blob/main/lpic.md#kernel-modules) on the system.
+- <a name="lspci"></a>lspci: **Shows [PCI devices](#pci) that are connected to the computer**
 ``` console
 guilherme@machine:~$ lspci
 00:00.0 Host bridge: ALi Corporation M1541 (rev 04)
@@ -41,7 +45,7 @@ guilherme@machine:~$ lspci
 00:0f.0 IDE interface: ALi Corporation M5229 IDE (rev c1)
 01:00.0 VGA compatible controller: NVidia / SGS Thomson (Joint Venture) Riva128 (rev 10)
 ```
-- lsusb: **Displays informations about USB devices**
+- <a name="lsusb"></a>lsusb: **Displays informations about USB devices**
 ``` console
 guilherme@machine:~$ lsusb
 Bus 002 Device 003: ID 1c4f:0026 SiGma Micro Keyboard
