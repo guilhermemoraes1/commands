@@ -70,8 +70,8 @@ Kernel + Initrd or Initramfs --> Auxilia com arquivos necessários para o kernel
 
 - dmesg
 - journalctl
-- BIOS
-- UEFI
+- BIOS: is a fundamental firmware in a computer that provides low-level instructions for initializing and controlling hardware during the boot process.
+- UEFI: is a modern replacement for the traditional BIOS (Basic Input/Output System) firmware found in computers.
 - bootloader
 - kernel
 - initramfs: Initramfs (Initial RAM File System) is a temporary root file system used during the boot process of a Linux-based operating system.
