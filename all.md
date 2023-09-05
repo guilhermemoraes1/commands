@@ -36,6 +36,7 @@
 - `pwd`: Print working directory.
 - `rm`: Remove.
 - `rmdir`: Remove directory.
+- `rmmod`: Remove or unload kernel modules from the running kernel.
 - `runlevel`: Used to display the current runlevel of the system.
 - `su`: Switch user.
 - `sysctl`: Used to view, configure, and manage kernel parameters at runtime.
