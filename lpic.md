@@ -2,7 +2,7 @@
 ### 101.1 Determine and configure hardware settings
 
 ##
-- **[/sys/](https://github.com/guilhermemoraes1/commands/edit/main/lpic.md#sys) - [/proc/](https://github.com/guilhermemoraes1/commands/edit/main/lpic.md#proc) - [/dev/](https://github.com/guilhermemoraes1/commands/edit/main/lpic.md#dev) - [modprobe](https://github.com/guilhermemoraes1/commands/edit/main/lpic.md#modprobe) - [lsmod](https://github.com/guilhermemoraes1/commands/edit/main/lpic.md#lsmod) - [lspci](https://github.com/guilhermemoraes1/commands/edit/main/lpic.md#lspci) - [lsusb](https://github.com/guilhermemoraes1/commands/edit/main/lpic.md#lsusb)**
+- **[/sys/](https://github.com/guilhermemoraes1/commands//main/lpic.md#sys) - [/proc/](https://github.com/guilhermemoraes1/commands/main/lpic.md#proc) - [/dev/](https://github.com/guilhermemoraes1/commands/main/lpic.md#dev) - [modprobe](https://github.com/guilhermemoraes1/commands/main/lpic.md#modprobe) - [lsmod](https://github.com/guilhermemoraes1/commands/main/lpic.md#lsmod) - [lspci](https://github.com/guilhermemoraes1/commands/main/lpic.md#lspci) - [lsusb](https://github.com/guilhermemoraes1/commands/main/lpic.md#lsusb)**
 ##
 
 - <a name="sys"></a>/sys/
