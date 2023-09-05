@@ -35,6 +35,7 @@
 - `pwd`: Print working directory.
 - `rm`: Remove.
 - `rmdir`: Remove directory.
+- `runlevel`: Used to display the current runlevel of the system.
 - `su`: Switch user.
 - `sudo lshw`:
 - `sysctl`: Used to view, configure, and manage kernel parameters at runtime.
