@@ -38,6 +38,7 @@
 - `rmdir`: Remove directory.
 - `rmmod`: Remove or unload kernel modules from the running kernel.
 - `runlevel`: Used to display the current runlevel of the system.
+- `shutdown`: Used to gracefully shut down or restart the computer.
 - `su`: Switch user.
 - `sysctl`: Used to view, configure, and manage kernel parameters at runtime.
 - `tail`: Display the end or tail portion of a text file.
