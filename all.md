@@ -45,6 +45,7 @@
 - `sysctl`: Used to view, configure, and manage kernel parameters at runtime.
 - `tail`: Display the end or tail portion of a text file.
 - <a name="top"></a>`top`: Provides real-time information about the system's processes and resource usage.
+- `type`: 
 - `uname`: Display system information about the operating system.
 - `unexpand`: 
 - `uptime`: Displays the current time, how long the system has been running, and the average system load over the last 1, 5, and 15 minutes.
