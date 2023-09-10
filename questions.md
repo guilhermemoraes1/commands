@@ -1,3 +1,12 @@
+When planning a partition scheme, which of the following directories could be considered for separate partitions? (Choose three.)
+- [ ] /etc
+- [x] /home
+- [x] /var
+- [ ] /lib
+- [x] /opt
+
+##
+
 LPI101 The system is having trouble and the engineer wants to bypass the usual /sbin/init start up and run /bin/sh. What is the usual way to pass this change to the kernel from your boot loader?
    - [ ] Start in runlevel 1.
    - [x] Pass init=/bin/sh on the kernel parameter line.
@@ -13,7 +22,15 @@ LPI101(3#1) Which of the following options for the kernel's command line changes
    - [ ] systemd.default=rescue.target
    - [x] systemd.unit=rescue.target.
 
-#
+##
+
+LPI101(8#1) During a system boot cycle, what is the program that is run after the BIOS completes its tasks?
+   - [ ] The bootloader
+   - [ ] The inetd program
+   - [ ] The init program
+   - [x] The kernel
+
+##
 
 LPI101(17#1) Which of the following commands reboots the system when using SysV init? (Choose TWO Answers.)
    - [x] shutdown -r now
@@ -21,6 +38,23 @@ LPI101(17#1) Which of the following commands reboots the system when using SysV 
    - [x] telinit 6
    - [ ] telinit 0
    - [ ] shutdown -k now "rebooting"
+
+##
+
+LPI101(44#1) Which file should be edited to select the network locations from which Debian installation package files are loaded?
+   - [ ] /etc/dpkg/dpkg.cfg
+   - [ ] /etc/apt/apt.conf
+   - [ ] /etc/apt/apt.conf.d
+   - [x] /etc/apt/sources.list
+   - [ ] /etc/dpkg/dselect.cfg
+
+##
+
+LPI101(51#1) Which of the following commands can be used to download the RPM package kernel without installing it?
+   - [ ] yum download --no-install kernel
+   - [x] yumdownloader kernel
+   - [ ] rpm --download --package kernel
+   - [ ] rpmdownload kernel
 
 ##
 
@@ -67,6 +101,15 @@ LPI101(85#1) Which of the following commands will reduce all consecutive spaces 
 
 ##
 
+LPI101(86#1) From a Bash shell, which of the following commands directly executes the instruction from the file /usr/local/bin/runme.sh without starting a subshell? (Please select TWO answers.)
+   - [ ] source /usr/local/bin/runme.sh
+   - [ ] ./usr/local/bin/runme.sh
+   - [ ] /bin/bash /usr/local/bin/runme.sh
+   - [x] /usr/local/bin/runme.sh
+   - [ ] run /usr/local/bin/runme.sh
+
+##
+
 LPI101(88#1) When running the command sed -e "s/a/b/" /tmp/file >/tmp/file While /tmp/file contains data, why is /tmp/file empty afterwards?
    - [ ] The file order is incorrect. The destination file must be mentioned before the command to ensure redirection.
    - [ ] The command sed did not match anything in that file therefore the output is empty.
@@ -80,6 +123,15 @@ LPI101(92#1) What is the effect of the egrep command when the -v option is used?
    - [x] It only outputs non-matching lines.
    - [ ] It shows the command's version information.
    - [ ] It changes the output order showing the last matching line first.
+
+##
+
+LPI101(94#1) Which character, added to the end of a command, runs that command in the background as a child process of the current shell?
+   - [ ] !
+   - [ ] +
+   - [x] &
+   - [ ] %
+   - [ ] #
 
 ##
 
