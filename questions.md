@@ -153,6 +153,33 @@ LPI101(101#1) When given the following command line. echo "foo bar" | tee bar | 
 
 ##
 
+LPI101(104#1) Which of the following signals is sent to a process when the key combination CTRL+C is pressed on the keyboard?
+   - [ ] SIGTERM
+   - [ ] SIGCONT
+   - [ ] SIGSTOP
+   - [ ] SIGKILL
+   - [x] SIGINT
+
+##
+
+LPI101(106#1) Immediately after deleting 3 lines of text in vi and moving the cursor to a different line, which single character command will insert the deleted content below the current line?
+   - [ ] i (lowercase)
+   - [ ] P (uppercase)
+   - [ ] p (lowercase)
+   - [ ] U (uppercase)
+   - [x] u (lowercase)
+
+##
+
+LPI101(117#1) Which of the following settings for umask ensures that new files have the default permissions -rw-r--- -- ?
+   - [ ] 0017
+   - [ ] 0640
+   - [ ] 0038
+   - [ ] 0027
+   - [x] 0227
+
+##
+
 LPI101(123#1) Which of the following Linux filesystems preallocates a fixed number of inodes at the filesystem's make/creation time and does NOT generate them as needed? (Choose TWO Answers.)
    - [ ] ext3
    - [x] JFS
@@ -168,6 +195,51 @@ LPI101(133#1) Which of the following statements is correct for a command ending 
    - [ ] The command's output is executed by the shell.
    - [ ] The command is run as a direct child of the init process.
    - [ ] The command's input is read from /dev/null.
+
+##
+
+LPI101(142#1) Which signal is sent by the kill command by default?
+   - [ ] SIGHUP(1)
+   - [ ] SIGQUIT(3)
+   - [ ] SIGKILL(9)
+   - [ ] SIGTERM(15)
+   - [x] Feedback
+
+##
+
+LPI101(143#1) Creating a hard link to an ordinary file returns an error. What could be the reason for this?
+   - [ ] The source file is hidden.
+   - [ ] The source file is read-only.
+   - [ ] The source file is a shell script.
+   - [ ] The source file is already a hard link.
+   - [x] The source and the target are on different filesystems.
+
+##
+
+LPI101(145#1) Instead of supplying an explicit device in /etc/fstab for mounting, what other options may be used to identify the intended partition? (Choose TWO Answers.)
+   - [ ] FIND
+   - [ ] ID
+   - [x] LABEL
+   - [ ] NAME
+   - [x] UUID
+
+##
+
+LPI101(146#1) When using regular expressions, which of the following characters match the beginning of a line?
+   - [x] ^
+   - [ ] ?
+   - [ ] *
+   - [ ] +
+   - [ ] $
+
+##
+
+LPI101(154#1) In Bash, inserting 2>&1 after a command redirects:
+   - [ ] standard error to standard input.
+   - [ ] standard input to standard error.
+   - [ ] standard output to standard error.
+   - [x] standard error to standard output.
+   - [ ] standard output to standard input.
 
 ##
 
@@ -188,6 +260,15 @@ LPI101(173#1) Which of the following commands makes /bin/foo executable by every
 
 ##
 
+LPI101(174#1) Which of the following commands can be used to create a new file that is 100kB in size?
+   - [ ] dd
+   - [ ] file
+   - [ ] mkfile
+   - [ ] touch
+   - [x] Feedback
+
+##
+
 LPI101(181#1) Which of the following commands will produce the following output?
    - [ ] jobs
    - [ ] proclist
@@ -196,11 +277,38 @@ LPI101(181#1) Which of the following commands will produce the following output?
 
 ##
 
+LPI101(184#1) Where does the BIOS search for a bootloader?
+   - [ ] On all connected storage media regardless of the boot device order.
+   - [x] On all connected storage media in the defined boot device order.
+   - [ ] Only on hard disk drives in the defined boot device order.
+   - [ ] Only on the last added storage media.
+   - [ ] The BIOS is not responsible to search for a valid bootloader.
+
+##
+
 LPI101(188#1) Which of the following commands enables the setuid (suid) permission on the executable /bin/foo?
    - [ ] chmod 1755 /bin/foo
    - [x] chmod 4755 /bin/foo
    - [ ] chmod u-s /bin/foo
    - [ ] chmod 755+s /bin/foo.
+
+##
+
+LPI101(197#1) Which of the following are filesystems which can be used on Linux root partitions? (Choose two.)
+   - [ ] NTFS
+   - [x] ext3
+   - [ ] XFS
+   - [ ] VFAT
+   - [ ] swap
+
+##
+
+LPI101(204#1) Which of the following commands installs all packages with a name ending with the string foo?
+   - [ ] zypper get “*foo”
+   - [ ] zypper update “foo?”
+   - [ ] zypper force “foo*”
+   - [ ] zypper install “*foo”
+   - [x] zypper add “.*foo”
 
 ##
 
@@ -213,12 +321,57 @@ LPI101(208#1) What is contained on the EFI System Partition?
 
 ##
 
+LPI101(216#1) Which of the following statements are true about the boot sequence of a PC using a BIOS? (Choose two.)
+   - [ ] Some parts of the boot process can be configured from the BIOS
+   - [ ] Linux does not require the assistance of the BIOS to boot a computer
+   - [ ] The BIOS boot process starts only if secondary storage, such as the hard disk, is functional
+   - [x] The BIOS initiates the boot process after turning the computer on
+   - [ ] The BIOS is started by loading hardware drivers from secondary storage, such as the hard disk.
+
+##
+
 LPI101(223#1) Which of the following commands lists the dependencies of the RPM package file foo.rpm?
    - [x] rpm –qpR foo.rpm
    - [ ] rpm –dep foo
    - [ ] rpm –ld foo.rpm
    - [ ] rpm –R foo.rpm
    - [ ] rpm –pD foo.
+
+##
+
+LPI101(224#1) Which is the default percentage of reserved space for the root user on new ext4 filesystems?
+   - [ ] 10%
+   - [ ] 3%
+   - [ ] 15%
+   - [ ] 0%
+   - [x] 5%
+
+##
+
+LPI101(225#1) What is true regarding the command ls > files if files does not exist?
+   - [ ] The output of ls is printed to the terminal
+   - [ ] files is created and contains the output of ls
+   - [ ] An error message is shown and ls is not executed
+   - [ ] The command files is executed and receives the output of ls
+   - [x] Any output of ls is discarded
+
+##
+
+LPI101(228#1) Which of the following commands displays the path to the executable file that would be executed when the command foo is invoked?
+   - [ ] lsattr foo
+   - [ ] apropos foo
+   - [ ] locate foo
+   - [ ] whatis foo
+   - [x] which foo
+
+##
+
+LPI101(232#1) Which of the following apt-get subcommands installs the newest versions of all currently installed packages?
+   - [ ] auto-update
+   - [x] dist-upgrade
+   - [ ] full-upgrade
+   - [ ] install
+   - [ ] update
 
 ##
 
@@ -230,12 +383,30 @@ LPI101(246#1) When in Normal mode in vi, which character can be used to begin a 
 
 ##
 
+LPI101(255#1) Which of the following commands lists all currently installed packages when using RPM package management?
+   - [ ] yum --query --all
+   - [ ] yum --list --installed
+   - [ ] rpm --query --list
+   - [ ] rpm --list --installed
+   - [x] rpm --query --all
+
+##
+
 LPI101(256#1) Which of the following commands are valid in the GRUB 2 configuration file? (Choose two.)
    - [x] menuentry
    - [ ] uefi
    - [ ] pxe-ifconfig
    - [x] insmod
    - [ ] kpartx.
+
+##
+
+LPI101(261#1) Running chmod 640 filea.txt as a regular user doesn't update filea.txt's permission. What might be a reason why chmod cannot modify the permissions? (Choose two.)
+   - [ ] filea.txt is owned by another user and a regular user cannot change the permissions of another user's file.
+   - [ ] filea.txt is a symbolic link whose permissions are a fixed value which cannot be changed.
+   - [ ] filea.txt has the sticky bit set and a regular user cannot remove this permission.
+   - [ ] filea.txt is a hard link whose permissions are inherited from the target and cannot be set directly.
+   - [x] filea.txt has the SetUID bit set which imposes the restriction that only the root user can make changes to the file.
 
 ##
 
