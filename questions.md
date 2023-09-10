@@ -32,12 +32,29 @@ LPI101(8#1) During a system boot cycle, what is the program that is run after th
 
 ##
 
+LPI101(12#1) Which of the following kernel parameters instructs the kernel to suppress most boot messages?
+   - [ ] silent
+   - [ ] verbose=0
+   - [ ] nomesg
+   - [x] quiet
+
+##
+
 LPI101(17#1) Which of the following commands reboots the system when using SysV init? (Choose TWO Answers.)
    - [x] shutdown -r now
    - [ ] shutdown -r "rebooting"
    - [x] telinit 6
    - [ ] telinit 0
    - [ ] shutdown -k now "rebooting"
+
+##
+
+LPI101(39#1) Which of the following environment variables overrides or extends the list of directories holding shared libraries?
+   - [ ] LD_LOAD_PATH
+   - [ ] LD_LIB_PATH
+   - [x] LD_LIBRARY_PATH
+   - [ ] LD_SHARE_PATH
+   - [ ] LD_RUN_PATH
 
 ##
 
@@ -50,11 +67,27 @@ LPI101(44#1) Which file should be edited to select the network locations from wh
 
 ##
 
+LPI101(46#1) Which of the following commands overwrites the bootloader located on /dev/sda without overwriting the partition table or any data following it?
+   - [ ] dd if=/dev/zero of=/dev/sda bs=512
+   - [ ] dd if=/dev/zero of=/dev/sda bs=512 count=1
+   - [x] dd if=/dev/zero of=/dev/sda bs=440 count=1
+   - [ ] dd if=/dev/zero of=/dev/sda bs=440
+
+##
+
 LPI101(51#1) Which of the following commands can be used to download the RPM package kernel without installing it?
    - [ ] yum download --no-install kernel
    - [x] yumdownloader kernel
    - [ ] rpm --download --package kernel
    - [ ] rpmdownload kernel
+
+##
+
+LPI101(52#1) Which function key is used to start Safe Mode in Windows NT?
+   - [ ] F10
+   - [ ] F8
+   - [ ] F6
+   - [x] Windows NT does not support Safe Mode
 
 ##
 
@@ -64,6 +97,15 @@ LPI101(60#1) Which of the following commands can be used to create a USB storage
    - [ ] cc
    - [ ] fdisk
    - [ ] mount
+
+##
+
+LPI101(67#1) Which of the following files, located in the user home directory, is used to store the Bash history?
+   - [x] .bash_history
+   - [ ] .bash_histfile
+   - [ ] .history
+   - [ ] .bashrc_history
+   - [ ] .history_bash
 
 ##
 
@@ -115,6 +157,15 @@ LPI101(88#1) When running the command sed -e "s/a/b/" /tmp/file >/tmp/file While
    - [ ] The command sed did not match anything in that file therefore the output is empty.
    - [x] When the shell establishes the redirection it overwrites the target file before the redirected command starts and opens it for reading.
    - [ ] Redirection for shell commands do not work using the > character. It only works using the | character instead.
+
+##
+
+LPI101(91#1) What is the purpose of the Bash built-in export command?
+   - [ ] It allows disks to be mounted remotely.
+   - [ ] It runs a command as a process in a subshell.
+   - [ ] It makes the command history available to subshells.
+   - [x] It sets up environment variables for applications.
+   - [ ] It shares NFS partitions for use by other systems on the network.
 
 ##
 
@@ -198,6 +249,15 @@ LPI101(133#1) Which of the following statements is correct for a command ending 
 
 ##
 
+LPI101(136#1) Which of the following examples for Bash file globbing matches a file named root-can-dothis.txt when used in the directory holding that file? (Choose three Answers.)
+   - [x] root*can?do-this.{txt,odt}
+   - [ ] r[oOoO]t-can-do*.txt
+   - [x] {root,user,admin}-can-??-this.txt
+   - [ ] root*can*do??this.txt
+   - [x] root***{can,may}-do-this.[tT][xX][tT]
+
+##
+
 LPI101(142#1) Which signal is sent by the kill command by default?
    - [ ] SIGHUP(1)
    - [ ] SIGQUIT(3)
@@ -230,6 +290,14 @@ LPI101(146#1) When using regular expressions, which of the following characters 
    - [ ] *
    - [ ] +
    - [ ] $
+
+##
+
+LPI101(150#1) Which of the following commands changes the ownership of file.txt to the user dan and the group staff?
+   - [ ] chown dan/staff file.txt
+   - [x] chown dan:staff file.txt
+   - [ ] chown -u dan -g staff file.txt
+   - [ ] chown dan -g staff file.txt
 
 ##
 
@@ -292,12 +360,30 @@ LPI101(188#1) Which of the following commands enables the setuid (suid) permissi
 
 ##
 
+LPI101(192#1) Which of the following commands will change all CR-LF pairs in an imported text file, userlist.txt, to Linux standard LF characters and store it as newlist.txt?
+   - [x] tr ‘\r\n’ ‘’ < userlist.txt > newlist.txt
+   - [ ] tr –c ‘\n\r’ ‘’ < newlist.txt > userlist.txt
+   - [ ] tr –d ‘\r’ < userlist.txt > newlist.txt
+   - [ ] tr ‘\r’ ‘\n’ userlist.txt newlist.txt
+   - [ ] tr –s ‘^M’ ‘^J’ userlist.txt newlist.txt
+
+##
+
 LPI101(197#1) Which of the following are filesystems which can be used on Linux root partitions? (Choose two.)
    - [ ] NTFS
    - [x] ext3
    - [ ] XFS
    - [ ] VFAT
    - [ ] swap
+
+##
+
+LPI101(199#1) Which of the following commands set the sticky bit for the directory /tmp? (Choose TWO Answers.)
+   - [ ] chmod +s /tmp
+   - [x] chmod +t /tmp
+   - [x] chmod 1775 /tmp
+   - [ ] chmod 4775 /tmp
+   - [ ] chmod 2775 /tmp
 
 ##
 
@@ -316,6 +402,15 @@ LPI101(208#1) What is contained on the EFI System Partition?
    - [ ] The default swap space file
    - [ ] The Linux default shell binaries
    - [ ] The user home directories
+
+##
+
+LPI101(213#1) Which of the following vi commands deletes two lines, the current and the following line?
+   - [ ] d2
+   - [ ] 2d
+   - [x] 2dd
+   - [ ] dd2
+   - [ ] de12
 
 ##
 
@@ -364,6 +459,15 @@ LPI101(228#1) Which of the following commands displays the path to the executabl
 
 ##
 
+LPI101(231#1) Which of the following regular expressions represents a single upper-case letter?
+   - [ ] :UPPER:
+   - [x] [A-Z]
+   - [ ] !a-z
+   - [ ] %C
+   - [ ] {AZ}
+
+##
+
 LPI101(232#1) Which of the following apt-get subcommands installs the newest versions of all currently installed packages?
    - [ ] auto-update
    - [x] dist-upgrade
@@ -373,11 +477,38 @@ LPI101(232#1) Which of the following apt-get subcommands installs the newest ver
 
 ##
 
+LPI101(233#1) Which daemon handles power management events on a Linux system?
+   - [x] acpid
+   - [ ] batteryd
+   - [ ] pwrmgntd
+   - [ ] psd
+   - [ ] inetd
+
+##
+
+LPI101(239#1) Which of the following files exist in a standard GRUB 2 installation? (Choose two.)
+   - [ ] /boot/grub/stages/stage0
+   - [x] /boot/grub/i386-pc/1vm.mod
+   - [ ] /boot/grub/fstab
+   - [x] /boot/grub/grub.cfg
+   - [ ] /boot/grub/linux/vmlinuz
+
+##
+
 LPI101(246#1) When in Normal mode in vi, which character can be used to begin a reverse search of the text?
    - [ ] ?
    - [ ] /
    - [ ] F
    - [x] r
+
+##
+
+LPI101(249#1) Which of the following commands installs the GRUB boot files into the currently active file systems and the boot loader into the first partition of the first disk?
+   - [x] grub-install /dev/sda
+   - [ ] grub-install /dev/sda1
+   - [ ] grub-install current /dev/sda0
+   - [ ] grub-install /dev/sda0
+   - [ ] grub-install current /dev/sda1
 
 ##
 
