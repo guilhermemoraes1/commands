@@ -202,8 +202,7 @@ LPI101(142#1) Which signal is sent by the kill command by default?
    - [ ] SIGHUP(1)
    - [ ] SIGQUIT(3)
    - [ ] SIGKILL(9)
-   - [ ] SIGTERM(15)
-   - [x] Feedback
+   - [x] SIGTERM(15)
 
 ##
 
