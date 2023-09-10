@@ -260,11 +260,10 @@ LPI101(173#1) Which of the following commands makes /bin/foo executable by every
 ##
 
 LPI101(174#1) Which of the following commands can be used to create a new file that is 100kB in size?
-   - [ ] dd
+   - [x] dd
    - [ ] file
    - [ ] mkfile
    - [ ] touch
-   - [x] Feedback
 
 ##
 
