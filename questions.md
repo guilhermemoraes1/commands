@@ -407,9 +407,9 @@ LPI101(152#1) Which permissions and ownership should the file /etc/passwd have?
 LPI101(153#1) Which of the following commands can be used to search for the executable file foo when it has been placed in a directory not included in $PATH?
    - [ ] apropos
    - [ ] which
-   - [ ] find
+   - [x] find
    - [ ] query
-   - [x] whereis
+   - [ ] whereis
 
 ##
 
@@ -459,7 +459,7 @@ LPI101(174#1) Which of the following commands can be used to create a new file t
 LPI101(177#1) Which of the following commands can be used to display the inode number of a given file? (Choose two.)
    - [ ] inode
    - [ ] ln
-   - [ ] ls
+   - [x] ls
    - [ ] cp
    - [x] stat
 
@@ -477,8 +477,8 @@ LPI101(183#1) Which of the following commands instructs SysVinit to reload its c
    - [ ] reinit
    - [ ] initreload
    - [ ] telinit 7
-   - [ ] telinit q
-   - [x] init reinit
+   - [x] telinit q
+   - [ ] init reinit
 
 ##
 
@@ -501,10 +501,10 @@ LPI101(188#1) Which of the following commands enables the setuid (suid) permissi
 
 LPI101(190#1) After running the command umount /mnt, the following error message is displayed: umount: /mnt: device is busy. What is a common reason for this message?
    - [ ] The kernel has not finished flushing disk writes to the mounted device.
-   - [ ] A user has a file open in the /mnt directory.
+   - [x] A user has a file open in the /mnt directory.
    - [ ] Another file system still contains a symlink to a file inside /mnt.
    - [ ] The files in /mnt have been scanned and added to the locate database.
-   - [x] The kernel thinks that a process is about to open a file in /mnt for reading.
+   - [ ] The kernel thinks that a process is about to open a file in /mnt for reading.
 
 ##
 
@@ -611,7 +611,7 @@ LPI101(226#1) Which of the following directories on a 64 bit Linux system typica
    - [ ] ~/.lib64/
    - [x] /usr/lib64/
    - [ ] /var/lib64/
-   - [ ] /lib64/
+   - [x] /lib64/
    - [ ] /opt/lib64/
 
 ##
@@ -628,9 +628,9 @@ LPI101(228#1) Which of the following commands displays the path to the executabl
 LPI101(230#1) When considering the use of hard links, what are valid reasons not to use hard links?
    - [ ] Hard links are not available on all Linux systems because traditional filesystems, such as ext4, do not support them
    - [ ] Each hard link has individual ownership, permissions and ACLs which can lead to unintended disclosure of file content
-   - [ ] Hard links are specific to one filesystem and cannot point to files on another filesystem
+   - [x] Hard links are specific to one filesystem and cannot point to files on another filesystem
    - [ ] If users other than root should be able to create hard links, suln has to be installed and configured
-   - [x] When a hard linked file is changed, a copy of the file is created and consumes additional space
+   - [ ] When a hard linked file is changed, a copy of the file is created and consumes additional space
 
 ##
 
@@ -736,8 +736,8 @@ LPI101(270#1) Which of the following tools can show the complete path of an exec
    - [ ] find
    - [ ] pwd
    - [x] which
-   - [ ] locate
-   - [x] type
+   - [x] locate
+   - [ ] type
 
 ##
 
@@ -761,15 +761,15 @@ LPI101(274#1) If the gzip compressed tar archive texts.tgz contains the files a.
 LPI101(277#1) When booting from the hard disk, a computer successfully loads the Linux kernel and initramfs but hangs during the subsequent startup tasks. The system is booted using a Linux based rescue CD to investigate the problem. Which of the following methods helps to identify the root cause of the problem?
    - [ ] Using the dmesg command from the rescue CD's shell to view the original system's boot logs.
    - [ ] Investigating the file /proc/kmsg on the computer's hard disk for possible errors.
-   - [ ] Investigating the file /var/log on the computer's hard disk for possible errors.
-   - [x] Using chroot to switch to the file system on the hard disk and use dmesg to view the logs.
+   - [x] Investigating the file /var/log on the computer's hard disk for possible errors.
+   - [ ] Using chroot to switch to the file system on the hard disk and use dmesg to view the logs.
    - [ ] Rebooting again from the hard drive since the system successfully booted from the rescue CD.
 
 ##
 
 LPI101(280#1) Which of the following statements are correct about the initial RAM disk involved in the boot process of Linux? (Choose two.)
-   - [ ] An initramfs is a compressed file system archive, which can be unpacked to examine its contents.
-   - [x] An initramfs file contains the MBR, the bootloader and the Linux kernel.
+   - [x] An initramfs is a compressed file system archive, which can be unpacked to examine its contents.
+   - [ ] An initramfs file contains the MBR, the bootloader and the Linux kernel.
    - [ ] After a successful boot, the initramfs contents are available in /run/initramfs/.
    - [x] The kernel uses the initramfs temporarily before accessing the real root file system.
    - [ ] An initramfs does not depend on a specific kernel version and is not changed after the initial installation.
