@@ -91,6 +91,14 @@ LPI101(52#1) Which function key is used to start Safe Mode in Windows NT?
 
 ##
 
+LPI101(58#1) What is the maximum niceness value that a regular user can assign to a process with the nice command when executing a new process?
+   - [ ] 9
+   - [x] 19
+   - [ ] 49
+   - [ ] 99
+
+##
+
 LPI101(60#1) Which of the following commands can be used to create a USB storage media from a disk image?
    - [ ] gdisk
    - [x] dd
@@ -126,11 +134,37 @@ LPI101(70#1) Which of the following commands displays the contents of a gzip com
 
 ##
 
+LPI101(78#1) Which of the following commands is used to change options and positional parameters for a running Bash?
+   - [ ] history
+   - [x] set
+   - [ ] bashconf
+   - [ ] setsh
+   - [ ] envsetup
+
+##
+
+LPI101(80#1) Which of the following command sets the Bash variable named TEST with the content FOO?
+   - [ ] set TEST="FOO"
+   - [ ] TEST = "FOO"
+   - [ ] var TEST="FOO"
+   - [x] TEST="FOO"
+
+##
+
 LPI101(81#1) Which of the following commands will send output from the program myapp to both standard output (stdout) and the file file1.log?
    - [ ] cat < myapp | cat > file1.log
    - [ ] myapp 0>&1 | cat > file1.log
    - [ ] myapp | cat > file1.log
    - [x] myapp | tee file1.log.
+
+##
+
+LPI101(84#1) Which of the following commands can be used to determine how long the system has been running? (Choose TWO Answers.)
+   - [x] uptime
+   - [ ] up
+   - [x] top
+   - [ ] uname -u
+   - [ ] time –up
 
 ##
 
@@ -157,6 +191,14 @@ LPI101(88#1) When running the command sed -e "s/a/b/" /tmp/file >/tmp/file While
    - [ ] The command sed did not match anything in that file therefore the output is empty.
    - [x] When the shell establishes the redirection it overwrites the target file before the redirected command starts and opens it for reading.
    - [ ] Redirection for shell commands do not work using the > character. It only works using the | character instead.
+
+##
+
+LPI101(89#1) Which of the following explanations are valid reasons to run a command in the background of your shell?
+   - [ ] The command does not need to execute immediately.
+   - [ ] The command has to run immediately but the user needs to log out.
+   - [x] The system is being shut down and the command needs to restart execution immediately after the reboot.
+   - [ ] The command can run at a lower priority than normal commands run on the command line.
 
 ##
 
@@ -192,6 +234,15 @@ LPI101(95#1) In Bash, inserting 1>&2 after a command redirects
    - [ ] standard output to standard error.
    - [x] standard error to standard output.
    - [ ] standard output to standard input.
+
+##
+
+LPI101(99#1) Which shell command is used to continue background execution of a suspended command?
+   - [ ] &
+   - [x] bg
+   - [ ] cont
+   - [ ] exec
+   - [ ] :&
 
 ##
 
@@ -231,12 +282,38 @@ LPI101(117#1) Which of the following settings for umask ensures that new files h
 
 ##
 
+LPI101(122#1) Which of the following commands creates an ext3 filesystem on /dev/sdb1? (Choose TWO Answers.)
+   - [x] /sbin/mke2fs -j /dev/sdb1
+   - [x] /sbin/mkfs -t ext3 /dev/sdb1
+   - [ ] /sbin/mkfs -c ext3 /dev/sdb1
+   - [ ] /sbin/mke3fs -j /dev/sdb1
+
+##
+
 LPI101(123#1) Which of the following Linux filesystems preallocates a fixed number of inodes at the filesystem's make/creation time and does NOT generate them as needed? (Choose TWO Answers.)
    - [ ] ext3
    - [x] JFS
    - [x] ext2
    - [ ] XFS
    - [ ] procfs.
+
+##
+
+LPI101(125#1) Which of the following commands updates the already installed RPM package rpmname?
+   - [ ] rpm --update rpmname
+   - [x] rpm –U rpmname
+   - [ ] rpm –q rpmname
+   - [ ] rpm --force rpmname
+   - [ ] rpm –i rpmname
+
+##
+
+LPI101(130#1) In order to display all currently mounted filesystems, which of the following commands could be used? (Choose TWO Answers.)
+   - [x] cat /proc/self/mounts
+   - [ ] free
+   - [ ] mount
+   - [x] lsmounts
+   - [ ] cat /proc/filesystems
 
 ##
 
@@ -255,6 +332,15 @@ LPI101(136#1) Which of the following examples for Bash file globbing matches a f
    - [x] {root,user,admin}-can-??-this.txt
    - [ ] root*can*do??this.txt
    - [x] root***{can,may}-do-this.[tT][xX][tT]
+
+##
+
+LPI101(137#1) Which of the following commands print the current working directory when using a Bash shell? (Choose two.)
+   - [x] echo “${PWD}”
+   - [ ] echo “${WD}”
+   - [x] pwd
+   - [ ] printwd
+   - [ ] echo '${pwd}'
 
 ##
 
