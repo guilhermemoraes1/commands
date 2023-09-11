@@ -388,11 +388,11 @@ LPI101(150#1) Which of the following commands changes the ownership of file.txt 
 ##
 
 LPI101(151#1) Which of the following partition types is used for Linux swap spaces when partitioning hard disk drives?
-   - [ ] 82
+   - [x] 82
    - [ ] 83
    - [ ] 8e
    - [ ] fd
-   - [x] 7
+   - [ ] 7
 
 ##
 
