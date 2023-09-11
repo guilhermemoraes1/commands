@@ -387,12 +387,47 @@ LPI101(150#1) Which of the following commands changes the ownership of file.txt 
 
 ##
 
+LPI101(151#1) Which of the following partition types is used for Linux swap spaces when partitioning hard disk drives?
+   - [ ] 82
+   - [ ] 83
+   - [ ] 8e
+   - [ ] fd
+   - [x] 7
+
+##
+
+LPI101(152#1) Which permissions and ownership should the file /etc/passwd have?
+   - [ ] -rw-------1 rootroot531 Jun 5 22:45 /etc/passwd
+   - [x] -rw-r--r--1 rootroot531 Jun 5 22:45 /etc/passwd
+   - [ ] -rw-r--r--1 11531 Jun 5 22:45 /etc/passwd
+   - [ ] -rw-------1 11531 Jun 5 22:45 /etc/passwd
+
+##
+
+LPI101(153#1) Which of the following commands can be used to search for the executable file foo when it has been placed in a directory not included in $PATH?
+   - [ ] apropos
+   - [ ] which
+   - [ ] find
+   - [ ] query
+   - [x] whereis
+
+##
+
 LPI101(154#1) In Bash, inserting 2>&1 after a command redirects:
    - [ ] standard error to standard input.
    - [ ] standard input to standard error.
    - [ ] standard output to standard error.
    - [x] standard error to standard output.
    - [ ] standard output to standard input.
+
+##
+
+LPI101(157#1) Which type of filesystem is created by mkfs when it is executed with the block device name only and without any additional parameters?
+   - [x] ext2
+   - [ ] ext3
+   - [ ] ext4
+   - [ ] XFS
+   - [ ] VFAT
 
 ##
 
@@ -421,11 +456,29 @@ LPI101(174#1) Which of the following commands can be used to create a new file t
 
 ##
 
+LPI101(177#1) Which of the following commands can be used to display the inode number of a given file? (Choose two.)
+   - [ ] inode
+   - [ ] ln
+   - [ ] ls
+   - [ ] cp
+   - [x] stat
+
+##
+
 LPI101(181#1) Which of the following commands will produce the following output?
    - [ ] jobs
    - [ ] proclist
    - [ ] netstat
    - [x] ps
+
+##
+
+LPI101(183#1) Which of the following commands instructs SysVinit to reload its configuration file?
+   - [ ] reinit
+   - [ ] initreload
+   - [ ] telinit 7
+   - [ ] telinit q
+   - [x] init reinit
 
 ##
 
@@ -443,6 +496,15 @@ LPI101(188#1) Which of the following commands enables the setuid (suid) permissi
    - [x] chmod 4755 /bin/foo
    - [ ] chmod u-s /bin/foo
    - [ ] chmod 755+s /bin/foo.
+
+##
+
+LPI101(190#1) After running the command umount /mnt, the following error message is displayed: umount: /mnt: device is busy. What is a common reason for this message?
+   - [ ] The kernel has not finished flushing disk writes to the mounted device.
+   - [ ] A user has a file open in the /mnt directory.
+   - [ ] Another file system still contains a symlink to a file inside /mnt.
+   - [ ] The files in /mnt have been scanned and added to the locate database.
+   - [x] The kernel thinks that a process is about to open a file in /mnt for reading.
 
 ##
 
@@ -479,6 +541,15 @@ LPI101(204#1) Which of the following commands installs all packages with a name 
    - [ ] zypper force “foo*”
    - [ ] zypper install “*foo”
    - [x] zypper add “.*foo”
+
+##
+
+LPI101(206#1) When redirecting the output of find to the xargs command, what option to find is useful if the filenames contain spaces?
+   - [ ] –rep-space
+   - [ ] –printnul
+   - [ ] –nospace
+   - [ ] –ignore-space
+   - [x] –print0
 
 ##
 
@@ -536,12 +607,30 @@ LPI101(225#1) What is true regarding the command ls > files if files does not ex
 
 ##
 
+LPI101(226#1) Which of the following directories on a 64 bit Linux system typically contain shared libraries? (Choose two.)
+   - [ ] ~/.lib64/
+   - [x] /usr/lib64/
+   - [ ] /var/lib64/
+   - [ ] /lib64/
+   - [ ] /opt/lib64/
+
+##
+
 LPI101(228#1) Which of the following commands displays the path to the executable file that would be executed when the command foo is invoked?
    - [ ] lsattr foo
    - [ ] apropos foo
    - [ ] locate foo
    - [ ] whatis foo
    - [x] which foo
+
+##
+
+LPI101(230#1) When considering the use of hard links, what are valid reasons not to use hard links?
+   - [ ] Hard links are not available on all Linux systems because traditional filesystems, such as ext4, do not support them
+   - [ ] Each hard link has individual ownership, permissions and ACLs which can lead to unintended disclosure of file content
+   - [ ] Hard links are specific to one filesystem and cannot point to files on another filesystem
+   - [ ] If users other than root should be able to create hard links, suln has to be installed and configured
+   - [x] When a hard linked file is changed, a copy of the file is created and consumes additional space
 
 ##
 
@@ -625,6 +714,15 @@ LPI101(261#1) Running chmod 640 filea.txt as a regular user doesn't update filea
 
 ##
 
+LPI101(262#1) Which of the following commands sets the SetUID permission on the executable /bin/foo?
+   - [x] chmod 4755 /bin/foo
+   - [ ] chmod 1755 /bin/foo
+   - [ ] chmod u-s /bin/foo
+   - [ ] chmod 755+s /bin/foo
+   - [ ] chmod 2755 /bin/foo
+
+##
+
 LPI101(268#1) Which of the following commands display the IDs of all processes owned by root? (Choose two.)
    - [ ] pgrep -c root
    - [x] pgrep -u root
@@ -634,12 +732,21 @@ LPI101(268#1) Which of the following commands display the IDs of all processes o
 
 ##
 
-LPI101(262#1) Which of the following commands sets the SetUID permission on the executable /bin/foo?
-   - [x] chmod 4755 /bin/foo
-   - [ ] chmod 1755 /bin/foo
-   - [ ] chmod u-s /bin/foo
-   - [ ] chmod 755+s /bin/foo
-   - [ ] chmod 2755 /bin/foo
+LPI101(270#1) Which of the following tools can show the complete path of an executable file that the current shell would execute when starting a command without specifying its complete path? (Choose two.)
+   - [ ] find
+   - [ ] pwd
+   - [x] which
+   - [ ] locate
+   - [x] type
+
+##
+
+LPI101(272#1) Which of the following commands outputs test to the shell?
+   - [ ] cat <!EOT test EOT
+   - [ ] cat <|EOT test EOT
+   - [ ] cat !<EOT test EOT
+   - [ ] cat &<EOT test EOT
+   - [x] cat <<EOT test EOT
 
 ##
 
@@ -650,3 +757,19 @@ LPI101(274#1) If the gzip compressed tar archive texts.tgz contains the files a.
    - [x] Only a.txt and b.txt.
 
 ##
+
+LPI101(277#1) When booting from the hard disk, a computer successfully loads the Linux kernel and initramfs but hangs during the subsequent startup tasks. The system is booted using a Linux based rescue CD to investigate the problem. Which of the following methods helps to identify the root cause of the problem?
+   - [ ] Using the dmesg command from the rescue CD's shell to view the original system's boot logs.
+   - [ ] Investigating the file /proc/kmsg on the computer's hard disk for possible errors.
+   - [ ] Investigating the file /var/log on the computer's hard disk for possible errors.
+   - [x] Using chroot to switch to the file system on the hard disk and use dmesg to view the logs.
+   - [ ] Rebooting again from the hard drive since the system successfully booted from the rescue CD.
+
+##
+
+LPI101(280#1) Which of the following statements are correct about the initial RAM disk involved in the boot process of Linux? (Choose two.)
+   - [ ] An initramfs is a compressed file system archive, which can be unpacked to examine its contents.
+   - [x] An initramfs file contains the MBR, the bootloader and the Linux kernel.
+   - [ ] After a successful boot, the initramfs contents are available in /run/initramfs/.
+   - [x] The kernel uses the initramfs temporarily before accessing the real root file system.
+   - [ ] An initramfs does not depend on a specific kernel version and is not changed after the initial installation.
