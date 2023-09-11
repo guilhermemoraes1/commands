@@ -196,8 +196,8 @@ LPI101(88#1) When running the command sed -e "s/a/b/" /tmp/file >/tmp/file While
 
 LPI101(89#1) Which of the following explanations are valid reasons to run a command in the background of your shell?
    - [ ] The command does not need to execute immediately.
-   - [ ] The command has to run immediately but the user needs to log out.
-   - [x] The system is being shut down and the command needs to restart execution immediately after the reboot.
+   - [x] The command has to run immediately but the user needs to log out.
+   - [ ] The system is being shut down and the command needs to restart execution immediately after the reboot.
    - [ ] The command can run at a lower priority than normal commands run on the command line.
 
 ##
