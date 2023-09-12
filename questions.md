@@ -40,6 +40,15 @@ LPI101(12#1) Which of the following kernel parameters instructs the kernel to su
 
 ##
 
+LPI101(14#1) Which of the following commands will write a message to the terminals of all logged in users?
+   - [ ] bcast
+   - [ ] mesg
+   - [ ] print
+   - [x] wall
+   - [ ] yell
+
+##
+
 LPI101(17#1) Which of the following commands reboots the system when using SysV init? (Choose TWO Answers.)
    - [x] shutdown -r now
    - [ ] shutdown -r "rebooting"
@@ -49,12 +58,38 @@ LPI101(17#1) Which of the following commands reboots the system when using SysV 
 
 ##
 
+LPI101(21#1) Which of the following commands brings a system running SysV init into a state in which it is safe to perform maintenance tasks? (Choose TWO Answers.)
+   - [ ] shutdown -R 1 now
+   - [ ] shutdown -single now
+   - [x] init 1
+   - [x] telinit 1
+   - [ ] runlevel 1
+
+##
+
+LPI101(36#1) Which of the following commands updates the linker cache of shared libraries?
+   - [ ] mkcache
+   - [ ] soconfig
+   - [ ] mkldconfig
+   - [ ] lddconfig
+   - [x] ldconfig
+
+##
+
 LPI101(39#1) Which of the following environment variables overrides or extends the list of directories holding shared libraries?
    - [ ] LD_LOAD_PATH
    - [ ] LD_LIB_PATH
    - [x] LD_LIBRARY_PATH
    - [ ] LD_SHARE_PATH
    - [ ] LD_RUN_PATH
+
+##
+
+LPI101(43#1) Which of the following commands lists all currently installed packages when using RPM package management?
+   - [ ] yum --query --all
+   - [ ] yum --list --installed
+   - [x] rpm --query --all
+   - [ ] rpm --list –installed
 
 ##
 
@@ -105,6 +140,23 @@ LPI101(60#1) Which of the following commands can be used to create a USB storage
    - [ ] cc
    - [ ] fdisk
    - [ ] mount
+
+##
+
+LPI101(62#1) What is the difference between the i and a commands of the vi editor?
+   - [ ] i (interactive) requires the user to explicitly switch between vi modes whereas a (automatic) switches modesautomatically.
+   - [x] i (insert) inserts text before the current cursor position whereas a (append) inserts text after the cursor.
+   - [ ] i (independent rows) starts every new line at the first character whereas a (aligned rows) keeps the indentation of the previous line.
+   - [ ] i (interrupt) temporarily suspends editing of a file to the background whereas a (abort) terminates editing.
+
+##
+
+LPI101(65#1) What happens after issuing the command vi without any additional parameters?
+   - [ ] vi starts and loads the last file used andmoves the cursor to the position where vi was when it last exited.
+   - [ ] vi starts and requires the user to explicitly either create a new or load an existing file.
+   - [ ] vi exits with an error message as it cannot be invoked without a file name to operate on.
+   - [x] vi starts in command mode and opens a new empty file.
+   - [ ] vi starts and opens a new file which is filled with the content of the vi buffer if the buffer contains text.
 
 ##
 
@@ -237,6 +289,23 @@ LPI101(95#1) In Bash, inserting 1>&2 after a command redirects
 
 ##
 
+LPI101(96#1) Which variable defines the directories in which a Bash shell searches for executable commands?
+   - [ ] BASHEXEC
+   - [ ] BASHRC
+   - [x] PATH
+   - [ ] EXECPATH
+   - [ ] PATHRC
+
+##
+
+LPI101(97#1) Regarding the command: nice -5 /usr/bin/prog Which of the following statements is correct?
+   - [ ] /usr/bin/prog is executed with a nice level of -5.
+   - [x] /usr/bin/prog is executed with a nice level of 5.
+   - [ ] /usr/bin/prog is executed with a priority of -5.
+   - [ ] /usr/bin/prog is executed with a priority of 5.
+
+##
+
 LPI101(99#1) Which shell command is used to continue background execution of a suspended command?
    - [ ] &
    - [x] bg
@@ -270,6 +339,15 @@ LPI101(106#1) Immediately after deleting 3 lines of text in vi and moving the cu
    - [ ] p (lowercase)
    - [ ] U (uppercase)
    - [x] u (lowercase)
+
+##
+
+LPI101(116#1) After successfully creating a hard link called bar to the ordinary file foo, foo is deleted from the filesystem. Which of the following describes the resulting situation?
+   - [ ] foo and bar would both be removed.
+   - [x] foo would be removed while bar would remain accessible.
+   - [ ] foo would be removed. bar would still exist but would be unusable.
+   - [ ] Both foo and bar would remain accessible.
+   - [ ] The user is prompted whether bar should be removed, too.
 
 ##
 
@@ -341,6 +419,15 @@ LPI101(137#1) Which of the following commands print the current working director
    - [x] pwd
    - [ ] printwd
    - [ ] echo '${pwd}'
+
+##
+
+LPI101(140#1) Which of the following are modes of the vi editor? (Choose two.)
+   - [ ] edit mode
+   - [x] insert mode
+   - [ ] change mode
+   - [ ] review mode
+   - [x] command mode
 
 ##
 
@@ -422,12 +509,38 @@ LPI101(154#1) In Bash, inserting 2>&1 after a command redirects:
 
 ##
 
+LPI101(156#1) Which of the following commands will change the quota for a specific user?
+   - [x] edquota
+   - [ ] repquota
+   - [ ] quota -e
+   - [ ] quota
+
+##
+
 LPI101(157#1) Which type of filesystem is created by mkfs when it is executed with the block device name only and without any additional parameters?
    - [x] ext2
    - [ ] ext3
    - [ ] ext4
    - [ ] XFS
    - [ ] VFAT
+
+##
+
+LPI101(160#1) In compliance with the FHS, in which of the following directories are documentation files found?
+   - [ ] /usr/share/documentation
+   - [ ] /usr/local/share/documentation
+   - [ ] /var/share/doc
+   - [x] /usr/share/doc
+   - [ ] /etc/share/doc
+
+##
+
+LPI101(163#1) Which of the following commands are common Linux commands for file management? (Choose three Answers.)
+   - [ ] copy
+   - [ ] mv
+   - [x] move
+   - [x] cp
+   - [x] mkdir
 
 ##
 
@@ -473,6 +586,15 @@ LPI101(181#1) Which of the following commands will produce the following output?
 
 ##
 
+LPI101(182#1) Which of the following describes the correct order in which the components of the system boot process are started?
+   - [ ] BIOS, kernel, bootloader, init system
+   - [x] BIOS, bootloader,kernel, init system
+   - [ ] Bootloader, BIOS, kernel, init system
+   - [ ] BIOS, bootloader, init system, kernel
+   - [ ] Bootloader, BIOS, init system, kernel
+
+##
+
 LPI101(183#1) Which of the following commands instructs SysVinit to reload its configuration file?
    - [ ] reinit
    - [ ] initreload
@@ -499,6 +621,15 @@ LPI101(188#1) Which of the following commands enables the setuid (suid) permissi
 
 ##
 
+LPI101(189#1) What does the command mount -a do?
+   - [ ] It mounts all available filesystems onto the current directory.
+   - [ ] It shows all mounted filesystems.
+   - [ ] It mounts all user mountable filesystems for thecurrent user.
+   - [x] It mounts all filesystems listed in /etc/fstab which have the option auto set.
+   - [ ] It mounts all filesystems listed in /etc/fstab which have the option noauto set.
+
+##
+
 LPI101(190#1) After running the command umount /mnt, the following error message is displayed: umount: /mnt: device is busy. What is a common reason for this message?
    - [ ] The kernel has not finished flushing disk writes to the mounted device.
    - [x] A user has a file open in the /mnt directory.
@@ -517,6 +648,23 @@ LPI101(192#1) Which of the following commands will change all CR-LF pairs in an 
 
 ##
 
+LPI101(195#1) What is the purpose of the xargs command?
+   - [ ] It passes arguments to an X server.
+   - [x] It reads standard input (STDIN) and builds up command lines to execute.
+   - [ ] It helps shellscripts take variable argument lists.
+   - [ ] It asks a question, graphically, and returns the answer to the shell.
+   - [ ] It allows users to specify long options for commands that normally only accept short options.
+
+##
+
+LPI101(196#1) Which of the following is a limitation of the cut command?
+   - [ ] Thecutcommand can only select output by field position.
+   - [x] Thecutcommand cannot reorder fields.
+   - [ ] Thecutcommand only works on ASCIItext.
+   - [ ] Thecutcommand cannot use different input and output delimiters.
+
+##
+
 LPI101(197#1) Which of the following are filesystems which can be used on Linux root partitions? (Choose two.)
    - [ ] NTFS
    - [x] ext3
@@ -532,6 +680,15 @@ LPI101(199#1) Which of the following commands set the sticky bit for the directo
    - [x] chmod 1775 /tmp
    - [ ] chmod 4775 /tmp
    - [ ] chmod 2775 /tmp
+
+##
+
+LPI101(203#1) What is true regarding UEFI firmware? (Choose two.)
+   - [x] It can read and interpret partition tables
+   - [x] It can use and read certain file systems
+   - [ ] It stores its entire configuration on the /boot/ partition
+   - [ ] It is stored in a special area within the GPT metadata
+   - [ ] It is loaded from a fixed boot disk position
 
 ##
 
@@ -559,6 +716,15 @@ LPI101(208#1) What is contained on the EFI System Partition?
    - [ ] The default swap space file
    - [ ] The Linux default shell binaries
    - [ ] The user home directories
+
+##
+
+LPI101(212#1) Which of the following commands changes all CR-LF line breaks in the text file userlist.txt to Linux standard LF line breaks and stores the result in newlist.txt?
+   - [x] tr –d ‘\r’ < userlist.txt > newlist.txt
+   - [ ] tr –c ‘\n\r’ ‘’ <newlist.txt> userlist.txt
+   - [ ] tr ‘\r\n’ ‘’ <userlist.txt> newlist.txt
+   - [ ] tr ‘\r’ ‘\n’ userlist.txt newlist.txt
+   - [ ] tr –s ‘/^M/^J/’ userlist.txt newlist.txt
 
 ##
 
@@ -613,6 +779,15 @@ LPI101(226#1) Which of the following directories on a 64 bit Linux system typica
    - [ ] /var/lib64/
    - [x] /lib64/
    - [ ] /opt/lib64/
+
+##
+
+LPI101(227#1) A faulty kernel module is causing issues with a network interface card. Which of the following actions ensures that this module is not loaded automatically when the system boots?
+   - [ ] Using lsmod --remove --autoclean without specifying the name of a specific module
+   - [ ] Using modinfo –k followed by the name of the offending module
+   - [ ] Using modprobe –r followed by the name of the offending module
+   - [x] Adding a blacklist line including the name of the offending module to the file /etc/modprobe.d/blacklist.conf
+   - [ ] Deleting the kernel module’s directory from the file system and recompiling the kernel, including its modules
 
 ##
 
@@ -678,6 +853,15 @@ LPI101(246#1) When in Normal mode in vi, which character can be used to begin a 
 
 ##
 
+LPI101(247#1) A yum repository can declare sets of related packages. Which yum command installs all packages belonging to the group admintools?
+   - [ ] yum pkgsel --install admintools
+   - [ ] yum install admintools/*
+   - [x] yum groupinstall admintools
+   - [ ] yum taskinstall admintools
+   - [ ] yum collection install admintools
+
+##
+
 LPI101(249#1) Which of the following commands installs the GRUB boot files into the currently active file systems and the boot loader into the first partition of the first disk?
    - [x] grub-install /dev/sda
    - [ ] grub-install /dev/sda1
@@ -686,6 +870,15 @@ LPI101(249#1) Which of the following commands installs the GRUB boot files into 
    - [ ] grub-install current /dev/sda1
 
 ##
+
+LPI101(253#1) Which of the following statements are correct when comparing Linux containers with traditional virtual machines (e.g. LXC vs. KVM)? (Choose three.)
+   - [x] Containers are a lightweight virtualization method where the kernel controls process isolation and resource management.
+   - [x] Fully virtualized machines can run any operating system for a specific hardware architecture within the virtual machine.
+   - [ ] Containers are completely decoupled from the host system's physical hardware and can only use emulated virtual hardware devices.
+   - [ ] The guest environment for fully virtualized machines is created by a hypervisor which provides virtual and emulated hardware devices.
+   - [x] Containers on the same host can use different operating systems, as the container hypervisor creates separate kernel execution.
+
+#
 
 LPI101(255#1) Which of the following commands lists all currently installed packages when using RPM package management?
    - [ ] yum --query --all
@@ -720,6 +913,33 @@ LPI101(262#1) Which of the following commands sets the SetUID permission on the 
    - [ ] chmod u-s /bin/foo
    - [ ] chmod 755+s /bin/foo
    - [ ] chmod 2755 /bin/foo
+
+##
+
+LPI101(263#1) After a power outage, the XFS file system of /dev/sda3 is inconsistent. How can the existing file system errors be fixed?
+   - [ ] By using mount -f to force a mount of the file system
+   - [ ] By running xfsck on the file system
+   - [ ] By mounting the file system with the option xfs_repair
+   - [ ] By running xfsadmin repair on the file system
+   - [x] By running xfs_repair on the file system
+
+##
+
+LPI101(264#1) Which of the following properties of an existing file changes when a hard link pointing to that file is created?
+   - [ ] File size
+   - [x] Link count
+   - [ ] Modify timestamp
+   - [ ] Inode number
+   - [ ] Permissions
+
+##
+
+LPI101(267#1) Which of the following commands is used to change options and positional parameters within a running Bash shell?
+   - [ ] history
+   - [ ] setsh
+   - [ ] bashconf
+   - [x] set
+   - [ ] envsetup
 
 ##
 
@@ -764,6 +984,15 @@ LPI101(277#1) When booting from the hard disk, a computer successfully loads the
    - [x] Investigating the file /var/log on the computer's hard disk for possible errors.
    - [ ] Using chroot to switch to the file system on the hard disk and use dmesg to view the logs.
    - [ ] Rebooting again from the hard drive since the system successfully booted from the rescue CD.
+
+##
+
+LPI101(278#1) Where is the bootloader stored on the hard disk of a UEFI system?
+   - [ ] In the EFI Boot Record (EBR).
+   - [ ] In the Master Boot Record (MBR).
+   - [x] On the EFI System Partition (ESP).
+   - [ ] On the partition labeled boot.
+   - [ ] On the partition number 127.
 
 ##
 
