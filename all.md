@@ -14,7 +14,6 @@
 - `hostname`: Display the hostname of the system.
 - `htop`: It is a more advanced and feature-rich alternative to the traditional [top](#top) command.
 - `init`: Used to change the runlevel of the system or initialize the system.
-- `init 6`: Used to reboot the system.
 - `insmod`: Used to manually insert (load) a [kernel module](https://github.com/guilhermemoraes1/commands/blob/main/lpic.md#kernel-modules) into the running Linux kernel.
 - `journalctl`: Utilize the systemd init system to view and query system logs.
 - `kill`: 
@@ -44,6 +43,7 @@
 - `su`: Switch user.
 - `sysctl`: Used to view, configure, and manage kernel parameters at runtime.
 - `tail`: Display the end or tail portion of a text file.
+- `telinit`: Used to change the system's runlevel.
 - <a name="top"></a>`top`: Provides real-time information about the system's processes and resource usage.
 - `type`: 
 - `uname`: Display system information about the operating system.
