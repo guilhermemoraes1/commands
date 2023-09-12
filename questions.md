@@ -1,12 +1,3 @@
-When planning a partition scheme, which of the following directories could be considered for separate partitions? (Choose three.)
-- [ ] /etc
-- [x] /home
-- [x] /var
-- [ ] /lib
-- [x] /opt
-
-##
-
 LPI101 The system is having trouble and the engineer wants to bypass the usual /sbin/init start up and run /bin/sh. What is the usual way to pass this change to the kernel from your boot loader?
    - [ ] Start in runlevel 1.
    - [x] Pass init=/bin/sh on the kernel parameter line.
