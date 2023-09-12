@@ -16,10 +16,10 @@ LPI101(3#1) Which of the following options for the kernel's command line changes
 ##
 
 LPI101(8#1) During a system boot cycle, what is the program that is run after the BIOS completes its tasks?
-   - [ ] The bootloader
+   - [x] The bootloader
    - [ ] The inetd program
    - [ ] The init program
-   - [x] The kernel
+   - [ ] The kernel
 
 ##
 
