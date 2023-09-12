@@ -1,1 +1,2 @@
+- LD_LIBRARY_PATH: It specifies a list of directories where the system should look for dynamic libraries before searching the standard system directories.
 - PS1="custom_prompt>": define the prompt that appears in the terminal when you enter commands.
