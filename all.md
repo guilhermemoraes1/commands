@@ -34,6 +34,7 @@
 - `modprobe`: Used to add, remove, or manage [kernel modules](https://github.com/guilhermemoraes1/commands/blob/main/lpic.md#kernel-modules) dynamically.
 - `more`: Display the content of text files one screen at a time.
 - `mv`: Move (rename).
+- `pgrep`: 
 - `pwd`: Print working directory.
 - `rm`: Remove.
 - `rmdir`: Remove directory.
