@@ -6,7 +6,8 @@
 - `cd`: Change directory.
 - `clear`: Clear the screen and remove previous text or output.
 - `dmesg`: Used to display the [kernel ring buffer](https://github.com/guilhermemoraes1/commands/blob/main/lpic.md#kernel-ring-buffer).
-- `echo`: 
+- `echo`:
+- `env`: 
 - `exit`: Used to terminate a terminal session or close a shell.
 - `file`: determine the type of a file by examining its content, rather than relying solely on the file extension.
 - `find`:
@@ -41,6 +42,7 @@
 - `rmdir`: Remove directory.
 - `rmmod`: Remove or unload kernel modules from the running kernel.
 - `runlevel`: Used to display the current runlevel of the system.
+- `set`: 
 - `shutdown`: Used to gracefully shut down or restart the computer.
 - `su`: Switch user.
 - `sysctl`: Used to view, configure, and manage kernel parameters at runtime.
