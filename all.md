@@ -48,7 +48,8 @@
 - <a name="top"></a>`top`: Provides real-time information about the system's processes and resource usage.
 - `type`: 
 - `uname`: Display system information about the operating system.
-- `unexpand`: 
+- `unexpand`:
+- `usermod`: 
 - `uptime`: Displays the current time, how long the system has been running, and the average system load over the last 1, 5, and 15 minutes.
 - `vim`: Text editor.
 - `w`: 
