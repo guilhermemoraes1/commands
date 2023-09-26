@@ -59,7 +59,7 @@
 - `wall`: Allows a user to send a message to all users who are currently logged in to the system.
 - `wc`: Used to count the number of lines, words, and characters in a text file or standard input.
 - `whoami`: Display the username of the current user who is logged into the terminal or session.
-- `wich`: 
+- `which`: 
 
 ##
 options
