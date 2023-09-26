@@ -1,5 +1,6 @@
 ### Command -options arguments
 
+- `apropos`: 
 - `apt update`: 
 - `apt upgrade`:
 - `cat`: Used to concatenate and display the content of text files.
