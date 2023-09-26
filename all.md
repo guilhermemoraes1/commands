@@ -22,7 +22,8 @@
 - `last`:
 - `ldconfig`: Used to update the shared library cache.
 - `ldd`: Shows which libraries a program needs to run.
-- `less`: View text files page by page with navigation features. 
+- `less`: View text files page by page with navigation features.
+- `locate`: 
 - `ls`: List the files and directories in the current directory (folder).
 - `lsblk`: Used for list devices that can read from or write to by blocks of data.
 - `lscpu`: Display information about the CPU and its capabilities.
