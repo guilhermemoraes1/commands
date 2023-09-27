@@ -6,6 +6,7 @@
 - `cat`: Used to concatenate and display the content of text files.
 - `cd`: Change directory.
 - `clear`: Clear the screen and remove previous text or output.
+- `cut`: 
 - `dmesg`: Used to display the [kernel ring buffer](https://github.com/guilhermemoraes1/commands/blob/main/lpic.md#kernel-ring-buffer).
 - `echo`:
 - `env`: 
