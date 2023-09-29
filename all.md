@@ -8,11 +8,12 @@
 - `clear`: Clear the screen and remove previous text or output.
 - `cut`: 
 - `dmesg`: Used to display the [kernel ring buffer](https://github.com/guilhermemoraes1/commands/blob/main/lpic.md#kernel-ring-buffer).
+- `dmidecode`:
 - `echo`:
 - `env`: 
 - `exit`: Used to terminate a terminal session or close a shell.
 - `file`: determine the type of a file by examining its content, rather than relying solely on the file extension.
-- `find`:
+- `find`: 
 - `free`: 
 - `head`: Display the beginning or top part of a text file.
 - `history`: Display a list of previously executed commands in the current terminal session. 
