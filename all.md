@@ -13,6 +13,7 @@
 - `exit`: Used to terminate a terminal session or close a shell.
 - `file`: determine the type of a file by examining its content, rather than relying solely on the file extension.
 - `find`:
+- `free`: 
 - `head`: Display the beginning or top part of a text file.
 - `history`: Display a list of previously executed commands in the current terminal session. 
 - `hostname`: Display the hostname of the system.
