@@ -12,6 +12,7 @@
 - `echo`:
 - `env`: 
 - `exit`: Used to terminate a terminal session or close a shell.
+- `fdisk`: 
 - `file`: determine the type of a file by examining its content, rather than relying solely on the file extension.
 - `find`: 
 - `free`: 
