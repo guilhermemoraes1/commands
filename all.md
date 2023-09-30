@@ -24,6 +24,7 @@
 - `info`: 
 - `init`: Used to change the runlevel of the system or initialize the system.
 - `insmod`: Used to manually insert (load) a [kernel module](https://github.com/guilhermemoraes1/commands/blob/main/lpic.md#kernel-modules) into the running Linux kernel.
+- `ip`: 
 - `journalctl`: Utilize the systemd init system to view and query system logs.
 - `kill`: 
 - `last`:
