@@ -55,7 +55,8 @@
 - `runlevel`: Used to display the current runlevel of the system.
 - `set`: 
 - `shutdown`: Used to gracefully shut down or restart the computer.
-- `sort`: 
+- `sort`:
+- `ss`: 
 - `su`: Switch user.
 - `sysctl`: Used to view, configure, and manage kernel parameters at runtime.
 - `tail`: Display the end or tail portion of a text file.
