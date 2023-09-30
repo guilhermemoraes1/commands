@@ -51,6 +51,7 @@
 - `rm`: Remove.
 - `rmdir`: Remove directory.
 - `rmmod`: Remove or unload kernel modules from the running kernel.
+- `route`: 
 - `runlevel`: Used to display the current runlevel of the system.
 - `set`: 
 - `shutdown`: Used to gracefully shut down or restart the computer.
