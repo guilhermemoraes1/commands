@@ -46,6 +46,7 @@
 - `more`: Display the content of text files one screen at a time.
 - `mv`: Move (rename).
 - `pgrep`:
+- `ping`:
 - `ps`: 
 - `pwd`: Print working directory.
 - `rm`: Remove.
