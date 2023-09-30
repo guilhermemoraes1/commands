@@ -17,7 +17,8 @@
 - `fdisk`: 
 - `file`: determine the type of a file by examining its content, rather than relying solely on the file extension.
 - `find`: 
-- `free`: 
+- `free`:
+- `group`: 
 - `head`: Display the beginning or top part of a text file.
 - `history`: Display a list of previously executed commands in the current terminal session. 
 - `hostname`: Display the hostname of the system.
@@ -67,7 +68,8 @@
 - `type`: 
 - `uname`: Display system information about the operating system.
 - `unexpand`:
-- `usermod`: 
+- `usermod`:
+- `useradd`:
 - `uptime`: Displays the current time, how long the system has been running, and the average system load over the last 1, 5, and 15 minutes.
 - `vim`: Text editor.
 - `w`: 
