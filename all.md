@@ -1,5 +1,6 @@
 ### Command -options arguments
 
+- `adduser`:
 - `apropos`: 
 - `apt update`: 
 - `apt upgrade`:
