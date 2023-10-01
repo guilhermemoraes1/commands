@@ -7,6 +7,7 @@
 - `cat`: Used to concatenate and display the content of text files.
 - `cd`: Change directory.
 - `chmod`:
+- `chgrp`: 
 - `chown`:
 - `clear`: Clear the screen and remove previous text or output.
 - `cut`:
