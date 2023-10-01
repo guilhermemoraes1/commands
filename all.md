@@ -6,7 +6,8 @@
 - `apt upgrade`:
 - `cat`: Used to concatenate and display the content of text files.
 - `cd`: Change directory.
-- `chmod`: 
+- `chmod`:
+- `chown`:
 - `clear`: Clear the screen and remove previous text or output.
 - `cut`:
 - `df`: 
