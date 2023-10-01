@@ -72,6 +72,7 @@
 - `type`: 
 - `uname`: Display system information about the operating system.
 - `unexpand`:
+- `unlink`: 
 - `usermod`:
 - `useradd`:
 - `uptime`: Displays the current time, how long the system has been running, and the average system load over the last 1, 5, and 15 minutes.
