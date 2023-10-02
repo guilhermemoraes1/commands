@@ -1,24 +1,24 @@
 ### Command -options arguments
 
-- `adduser`: adding new user accounts to the system.
-- `apropos`: used to search for and display a list of manual pages (documentation) that are related to a specific keyword or topic.
+- `adduser`: Adding new user accounts to the system.
+- `apropos`: Used to search for and display a list of manual pages (documentation) that are related to a specific keyword or topic.
 - `apt update`: 
 - `apt upgrade`:
 - `cat`: Used to concatenate and display the content of text files.
 - `cd`: Change directory.
-- `chmod`:
-- `chgrp`: 
-- `chown`:
+- `chmod`: Used to change the permissions (read, write, execute) of files and directories.
+- `chgrp`: Used to change the group ownership of files and directories.
+- `chown`: Used to change the ownership of files and directories.
 - `clear`: Clear the screen and remove previous text or output.
-- `cut`:
-- `df`: 
+- `cut`: Used for extracting specific sections (fields or columns) from text files or input streams.
+- `df`: Used to display information about the disk space usage on a system.
 - `dmesg`: Used to display the [kernel ring buffer](https://github.com/guilhermemoraes1/commands/blob/main/lpic.md#kernel-ring-buffer).
-- `dmidecode`:
-- `echo`:
-- `env`: 
+- `dmidecode`: Used to display information about the disk space usage on a system.
+- `echo`: Used to print text or messages to the terminal or console.
+- `env`: Used to display or modify the environment variables for a specific command or shell session.
 - `exit`: Used to terminate a terminal session or close a shell.
-- `fdisk`: 
-- `file`: determine the type of a file by examining its content, rather than relying solely on the file extension.
+- `fdisk`: Used for partitioning and formatting hard drives or storage devices.
+- `file`: Determine the type of a file by examining its content, rather than relying solely on the file extension.
 - `find`: 
 - `free`:
 - `group`: 
