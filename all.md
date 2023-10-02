@@ -1,7 +1,7 @@
 ### Command -options arguments
 
-- `adduser`:
-- `apropos`: 
+- `adduser`: adding new user accounts to the system.
+- `apropos`: used to search for and display a list of manual pages (documentation) that are related to a specific keyword or topic.
 - `apt update`: 
 - `apt upgrade`:
 - `cat`: Used to concatenate and display the content of text files.
