@@ -19,20 +19,19 @@
 - `exit`: Used to terminate a terminal session or close a shell.
 - `fdisk`: Used for partitioning and formatting hard drives or storage devices.
 - `file`: Determine the type of a file by examining its content, rather than relying solely on the file extension.
-- `find`: 
-- `free`:
-- `group`: 
+- `find`: Used to search for files and directories within a specified directory hierarchy based on various criteria.
+- `free`: Used to display information about the system's memory usage.
 - `head`: Display the beginning or top part of a text file.
 - `history`: Display a list of previously executed commands in the current terminal session. 
 - `hostname`: Display the hostname of the system.
 - `htop`: It is a more advanced and feature-rich alternative to the traditional [top](#top) command.
-- `info`: 
+- `info`: Used to access documentation and information about various commands, programs, and topics within the GNU Project.
 - `init`: Used to change the runlevel of the system or initialize the system.
 - `insmod`: Used to manually insert (load) a [kernel module](https://github.com/guilhermemoraes1/commands/blob/main/lpic.md#kernel-modules) into the running Linux kernel.
-- `ip`: 
+- `ip`: Used for configuring and managing network interfaces, routes, and tunnels.
 - `journalctl`: Utilize the systemd init system to view and query system logs.
-- `kill`: 
-- `last`:
+- `kill`: Used to terminate or signal processes in the system.
+- `last`: 
 - `ldconfig`: Used to update the shared library cache.
 - `ldd`: Shows which libraries a program needs to run.
 - `less`: View text files page by page with navigation features.
