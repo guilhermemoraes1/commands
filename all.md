@@ -66,6 +66,7 @@
 - `ss`: 
 - `su`: Switch user.
 - `sysctl`: Used to view, configure, and manage kernel parameters at runtime.
+- `systemctl`: 
 - `tail`: Display the end or tail portion of a text file.
 - `telinit`: Used to change the system's runlevel.
 - <a name="top"></a>`top`: Provides real-time information about the system's processes and resource usage.
