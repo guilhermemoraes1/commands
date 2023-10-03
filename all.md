@@ -52,7 +52,8 @@
 - `mv`: Move (rename).
 - `pgrep`:
 - `ping`:
-- `ps`: 
+- `ps`:
+- `pstree`: 
 - `pwd`: Print working directory.
 - `rm`: Remove.
 - `rmdir`: Remove directory.
