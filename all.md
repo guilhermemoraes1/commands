@@ -31,11 +31,11 @@
 - `ip`: Used for configuring and managing network interfaces, routes, and tunnels.
 - `journalctl`: Utilize the systemd init system to view and query system logs.
 - `kill`: Used to terminate or signal processes in the system.
-- `last`: 
+- `last`: Used to view information about previously logged-in users.
 - `ldconfig`: Used to update the shared library cache.
 - `ldd`: Shows which libraries a program needs to run.
 - `less`: View text files page by page with navigation features.
-- `ln`: 
+- `ln`: Used to create links between files, Hard Link and Symbolic (Soft) Link.
 - `locate`: 
 - `ls`: List the files and directories in the current directory (folder).
 - `lsblk`: Used for list devices that can read from or write to by blocks of data.
