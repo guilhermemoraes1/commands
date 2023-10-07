@@ -74,6 +74,7 @@
 - `telinit`: Used to change the system's runlevel.
 - <a name="top"></a>`top`: Provides real-time information about the system's processes and resource usage.
 - `type`:
+- `typeset`:
 - `unalias`:
 - `uname`: Display system information about the operating system.
 - `unexpand`:
