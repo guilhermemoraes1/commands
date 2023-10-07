@@ -1,6 +1,7 @@
 ### Command -options arguments
 
 - `adduser`: Adding new user accounts to the system.
+- `alias`:
 - `apropos`: Used to search for and display a list of manual pages (documentation) that are related to a specific keyword or topic.
 - `apt update`: 
 - `apt upgrade`:
@@ -72,7 +73,8 @@
 - `tail`: Display the end or tail portion of a text file.
 - `telinit`: Used to change the system's runlevel.
 - <a name="top"></a>`top`: Provides real-time information about the system's processes and resource usage.
-- `type`: 
+- `type`:
+- `unalias`:
 - `uname`: Display system information about the operating system.
 - `unexpand`:
 - `unlink`:
