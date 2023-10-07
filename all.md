@@ -17,6 +17,7 @@
 - `echo`: Used to print text or messages to the terminal or console.
 - `env`: Used to display or modify the environment variables for a specific command or shell session.
 - `exit`: Used to terminate a terminal session or close a shell.
+- `export`: 
 - `fdisk`: Used for partitioning and formatting hard drives or storage devices.
 - `file`: Determine the type of a file by examining its content, rather than relying solely on the file extension.
 - `find`: Used to search for files and directories within a specified directory hierarchy based on various criteria.
@@ -52,6 +53,7 @@
 - `mv`: Move (rename).
 - `pgrep`:
 - `ping`:
+- `printenv`: 
 - `ps`:
 - `pstree`: 
 - `pwd`: Print working directory.
