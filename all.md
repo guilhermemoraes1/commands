@@ -25,7 +25,7 @@
 - `echo`: Used to print text or messages to the terminal or console.
 - `env`: Used to display or modify the environment variables for a specific command or shell session.
 - `exit`: Used to terminate a terminal session or close a shell.
-- `export`: 
+- `export`: Used to set environment variables, making them available to other processes or shells
 - `fdisk`: Used for partitioning and formatting hard drives or storage devices.
 - `file`: Determine the type of a file by examining its content, rather than relying solely on the file extension.
 - `find`: Used to search for files and directories within a specified directory hierarchy based on various criteria.
@@ -53,7 +53,7 @@
 - `lsmod`: List the currently loaded [kernel modules](https://github.com/guilhermemoraes1/commands/blob/main/lpic.md#kernel-modules) on the system.
 - `lspci`: List all the [PCI devices](https://github.com/guilhermemoraes1/commands/blob/main/lpic.md#pci) connected to the computer's PCI bus.
 - `lsusb`: List all the USB  devices connected to the computer.
-- `man`: Manual.
+- `man`: Used to display manual pages for commands, programs, and other system components.
 - `mkdir`: Make directory.
 - `modinfo`: Display information about a [kernel module](https://github.com/guilhermemoraes1/commands/blob/main/lpic.md#kernel-modules).
 - `modprobe`: Used to add, remove, or manage [kernel modules](https://github.com/guilhermemoraes1/commands/blob/main/lpic.md#kernel-modules) dynamically.
