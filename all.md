@@ -1,10 +1,17 @@
 ### Command -options arguments
 
 - `adduser`: Adding new user accounts to the system.
-- `alias`:
+- `alias`: Used to create a temporary or permanent shortcut for a longer command or series of commands.
 - `apropos`: Used to search for and display a list of manual pages (documentation) that are related to a specific keyword or topic.
-- `apt update`: 
-- `apt upgrade`:
+- `apt update`: This command refreshes the package lists, ensuring that the system has the latest information about available packages.
+- `apt upgrade`: This command upgrades the installed packages to their latest versions.
+- `apt install package_name`: It installs a specific package.
+- `apt remove package_name`: It removes a specific package from the system.
+- `apt search search_term`: It searches for packages based on a specified search term.
+- `apt show package_name`: It displays detailed information about a specific package.
+- `apt list`: It lists all available packages.
+- `apt autoremove`: It removes any automatically installed packages that are no longer required.
+- `apt full-upgrade`: It performs a more aggressive upgrade that can install or remove additional packages if necessary.
 - `cat`: Used to concatenate and display the content of text files.
 - `cd`: Change directory.
 - `chmod`: Used to change the permissions (read, write, execute) of files and directories.
