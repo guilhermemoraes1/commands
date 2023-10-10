@@ -59,8 +59,8 @@
 - `modprobe`: Used to add, remove, or manage [kernel modules](https://github.com/guilhermemoraes1/commands/blob/main/lpic.md#kernel-modules) dynamically.
 - `more`: Display the content of text files one screen at a time.
 - `mv`: Move (rename).
-- `pgrep`:
-- `ping`:
+- `pgrep`: Used to find and list the process IDs (PIDs) of processes based on their names.
+- `ping`: Used to test the reachability of a host on an IP network.
 - `printenv`: 
 - `ps`:
 - `pstree`: 
