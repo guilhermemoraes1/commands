@@ -62,7 +62,7 @@
 - `pgrep`: Used to find and list the process IDs (PIDs) of processes based on their names.
 - `ping`: Used to test the reachability of a host on an IP network.
 - `printenv`: Used to display the current environment variables. 
-- `ps`:
+- `ps`: Used to provide information about currently running processes on the system.
 - `pstree`: 
 - `pwd`: Print working directory.
 - `rm`: Remove.
