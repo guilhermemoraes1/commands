@@ -63,7 +63,7 @@
 - `ping`: Used to test the reachability of a host on an IP network.
 - `printenv`: Used to display the current environment variables. 
 - `ps`: Used to provide information about currently running processes on the system.
-- `pstree`: 
+- `pstree`: Used to display a hierarchical tree-like view of all currently running processes on the system.
 - `pwd`: Print working directory.
 - `rm`: Remove.
 - `rmdir`: Remove directory.
