@@ -80,7 +80,7 @@
 - `tail`: Display the end or tail portion of a text file.
 - `telinit`: Used to change the system's runlevel.
 - <a name="top"></a>`top`: Provides real-time information about the system's processes and resource usage.
-- `type`:
+- `type`: Used to display information aboout a shell command.
 - `typeset`:
 - `unalias`:
 - `uname`: Display system information about the operating system.
