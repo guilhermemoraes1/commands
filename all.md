@@ -70,7 +70,7 @@
 - `rmmod`: Remove or unload kernel modules from the running kernel.
 - `route`: Used to view and manipulate the IP routing table.
 - `runlevel`: Used to display the current runlevel of the system.
-- `set`: 
+- `set`: Used to set and manipulate the shell's internal variables and options.
 - `shutdown`: Used to gracefully shut down or restart the computer.
 - `sort`:
 - `ss`: 
