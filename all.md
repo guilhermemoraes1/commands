@@ -72,7 +72,8 @@
 - `runlevel`: Used to display the current runlevel of the system.
 - `set`: Used to set and manipulate the shell's internal variables and options.
 - `shutdown`: Used to gracefully shut down or restart the computer.
-- `sort`: Used to arrange the lines of a file or the output of a command in a specific order. 
+- `sort`: Used to arrange the lines of a file or the output of a command in a specific order.
+- `source`: 
 - `ss`: Used for displaying detailed socket statistics.
 - `su`: Switch user.
 - `sysctl`: Used to view, configure, and manage kernel parameters at runtime.
