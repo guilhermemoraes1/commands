@@ -17,6 +17,7 @@
 - `chmod`: Used to change the permissions (read, write, execute) of files and directories.
 - `chgrp`: Used to change the group ownership of files and directories.
 - `chown`: Used to change the ownership of files and directories.
+- `chsh`: 
 - `clear`: Clear the screen and remove previous text or output.
 - `cut`: Used for extracting specific sections (fields or columns) from text files or input streams.
 - `df`: Used to display information about the disk space usage on a system.
