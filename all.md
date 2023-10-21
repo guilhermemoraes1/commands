@@ -83,7 +83,7 @@
 - `telinit`: Used to change the system's runlevel.
 - <a name="top"></a>`top`: Provides real-time information about the system's processes and resource usage.
 - `type`: Used to display information aboout a shell command.
-- `typeset`:
+- `typeset`: Used in shell scripting to define and set attributes for variables.
 - `unalias`:
 - `uname`: Display system information about the operating system.
 - `unexpand`:
