@@ -84,7 +84,7 @@
 - <a name="top"></a>`top`: Provides real-time information about the system's processes and resource usage.
 - `type`: Used to display information aboout a shell command.
 - `typeset`: Used in shell scripting to define and set attributes for variables.
-- `unalias`:
+- `unalias`: Used to remove alias definitions.
 - `uname`: Display system information about the operating system.
 - `unexpand`:
 - `unlink`:
