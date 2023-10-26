@@ -86,7 +86,7 @@
 - `typeset`: Used in shell scripting to define and set attributes for variables.
 - `unalias`: Used to remove alias definitions.
 - `uname`: Display system information about the operating system.
-- `unexpand`:
+- `unexpand`: Used to convert spaces to tabs in a text file. It is essentially the reverse of the `expand` command.
 - `unlink`:
 - `unset`: 
 - `usermod`:
