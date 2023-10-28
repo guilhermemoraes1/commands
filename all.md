@@ -87,7 +87,7 @@
 - `unalias`: Used to remove alias definitions.
 - `uname`: Display system information about the operating system.
 - `unexpand`: Used to convert spaces to tabs in a text file. It is essentially the reverse of the `expand` command.
-- `unlink`:
+- `unlink`: Used in the context of file systems to remove a symbolic or soft link.
 - `unset`: 
 - `usermod`:
 - `useradd`:
