@@ -76,6 +76,7 @@
 - `sort`: Used to arrange the lines of a file or the output of a command in a specific order.
 - `source`: Used in shell scripting to execute commands or scripts within the current shell environment.
 - `ss`: Used for displaying detailed socket statistics.
+- `stat`: 
 - `su`: Switch user.
 - `sysctl`: Used to view, configure, and manage kernel parameters at runtime.
 - `systemctl`: 
